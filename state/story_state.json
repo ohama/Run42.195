@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 9963
+    "total_word_count": 10997
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-04-01",
+    "current_date": "2024-04-04",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -42,6 +42,7 @@
     {"scene_id": "entry_007", "date": "2024-03-25", "title": "비 오는 날", "status": "drafted", "word_count": 987},
     {"scene_id": "entry_008", "date": "2024-03-28", "title": "엄마의 걱정", "status": "drafted", "word_count": 1142},
     {"scene_id": "entry_009", "date": "2024-04-01", "title": "4월, 봄이 왔다", "status": "drafted", "word_count": 1076},
-    {"scene_id": "entry_010", "date": "2024-04-04", "title": "아침의 소리들", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_010", "date": "2024-04-04", "title": "아침의 소리들", "status": "drafted", "word_count": 1034},
+    {"scene_id": "entry_011", "date": "2024-04-08", "title": "주 2회 루틴", "status": "planned", "word_count": 0}
   ]
 }
