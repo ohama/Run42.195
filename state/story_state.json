@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 7745
+    "total_word_count": 8887
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-03-04",
+    "current_date": "2024-03-28",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -40,6 +40,7 @@
     {"scene_id": "entry_005", "date": "2024-03-18", "title": "일부러 걸어봤다", "status": "drafted", "word_count": 1189},
     {"scene_id": "entry_006", "date": "2024-03-21", "title": "할아버지", "status": "drafted", "word_count": 1098},
     {"scene_id": "entry_007", "date": "2024-03-25", "title": "비 오는 날", "status": "drafted", "word_count": 987},
-    {"scene_id": "entry_008", "date": "2024-03-28", "title": "엄마의 걱정", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_008", "date": "2024-03-28", "title": "엄마의 걱정", "status": "drafted", "word_count": 1142},
+    {"scene_id": "entry_009", "date": "2024-04-01", "title": "4월, 봄이 왔다", "status": "planned", "word_count": 0}
   ]
 }
