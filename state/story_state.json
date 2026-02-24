@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 1087
+    "total_word_count": 2070
   },
   "current": {
     "chapter": 1,
@@ -34,7 +34,7 @@
   "resolved_threads": [],
   "scene_index": [
     {"scene_id": "entry_001", "date": "2024-03-04", "title": "중학교 첫날, 지옥 같은 버스", "status": "drafted", "word_count": 1087},
-    {"scene_id": "entry_002", "date": "2024-03-07", "title": "버스, 매일 이래?", "status": "planned", "word_count": 0},
+    {"scene_id": "entry_002", "date": "2024-03-07", "title": "버스, 매일 이래?", "status": "drafted", "word_count": 983},
     {"scene_id": "entry_003", "date": "2024-03-11", "title": "버스를 놓쳤다", "status": "planned", "word_count": 0},
     {"scene_id": "entry_004", "date": "2024-03-14", "title": "걸어서 간 날", "status": "planned", "word_count": 0},
     {"scene_id": "entry_005", "date": "2024-03-18", "title": "일부러 걸어봤다", "status": "planned", "word_count": 0},
