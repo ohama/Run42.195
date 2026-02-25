@@ -20,6 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Strip YAML frontmatter from scenes
+        run: |
+          for file in draft/scenes/*.md; do
+            if [ -f "$file" ]; then
+              # Remove YAML frontmatter (between first --- and second ---)
+              awk 'BEGIN{skip=0} /^---$/{if(skip==0){skip=1;next}else if(skip==1){skip=2;next}} skip!=1{print}' "$file" > tmp && mv tmp "$file"
+            fi
+          done
+
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
         with:
