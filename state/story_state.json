@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 26865
+    "total_word_count": 37324
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-05-27",
+    "current_date": "2024-07-04",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -58,6 +58,16 @@
     {"scene_id": "entry_023", "date": "2024-05-20", "title": "실패", "status": "drafted", "word_count": 1023},
     {"scene_id": "entry_024", "date": "2024-05-23", "title": "운동화가 불편해", "status": "drafted", "word_count": 1056},
     {"scene_id": "entry_025", "date": "2024-05-27", "title": "할아버지의 응원", "status": "drafted", "word_count": 1067},
-    {"scene_id": "entry_026", "date": "2024-06-03", "title": "러닝화", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_026", "date": "2024-06-03", "title": "러닝화의 마법", "status": "drafted", "word_count": 1045},
+    {"scene_id": "entry_027", "date": "2024-06-06", "title": "장마가 시작됐다", "status": "drafted", "word_count": 1012},
+    {"scene_id": "entry_028", "date": "2024-06-10", "title": "빗속을 달리다", "status": "drafted", "word_count": 1098},
+    {"scene_id": "entry_029", "date": "2024-06-13", "title": "5km 논스톱", "status": "drafted", "word_count": 1056},
+    {"scene_id": "entry_030", "date": "2024-06-17", "title": "선생님의 관심", "status": "drafted", "word_count": 1034},
+    {"scene_id": "entry_031", "date": "2024-06-20", "title": "여름이 오고 있다", "status": "drafted", "word_count": 1023},
+    {"scene_id": "entry_032", "date": "2024-06-24", "title": "땀", "status": "drafted", "word_count": 1012},
+    {"scene_id": "entry_033", "date": "2024-06-27", "title": "민서 같이 달릴래?", "status": "drafted", "word_count": 1078},
+    {"scene_id": "entry_034", "date": "2024-07-01", "title": "7월의 폭염", "status": "drafted", "word_count": 1034},
+    {"scene_id": "entry_035", "date": "2024-07-04", "title": "더위와의 싸움", "status": "drafted", "word_count": 1067},
+    {"scene_id": "entry_036", "date": "2024-07-08", "title": "태풍이 온다", "status": "planned", "word_count": 0}
   ]
 }
