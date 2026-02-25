@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "plot_threads.schema.json",
+  "title": "Plot Threads State",
+  "description": "Tracks plot threads, their dependencies, and resolution status",
+  "type": "object",
+  "required": ["schema_version", "threads", "foreshadowing"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "threads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type", "introduced_scene", "status"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^thread_[0-9]{2,3}$",
+            "description": "Unique thread identifier"
+          },
+          "name": {
+            "type": "string",
+            "description": "Human-readable thread name"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["main_plot", "subplot", "character_arc", "mystery", "relationship", "internal_conflict"],
+            "description": "Thread type/category"
+          },
+          "introduced_scene": {
+            "type": "string",
+            "pattern": "^ch[0-9]{2}_s[0-9]{2}$",
+            "description": "Scene where thread is introduced"
+          },
+          "resolved_scene": {
+            "type": ["string", "null"],
+            "pattern": "^ch[0-9]{2}_s[0-9]{2}$",
+            "description": "Scene where thread is resolved"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["active", "resolved", "abandoned", "red_herring"],
+            "description": "Current thread status"
+          },
+          "depends_on": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Thread IDs that must resolve before this one"
+          },
+          "enables": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Thread IDs that this thread's resolution enables"
+          },
+          "consequence_scenes": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Scenes showing consequences of resolution"
+          },
+          "emotional_weight": {
+            "type": "string",
+            "enum": ["low", "medium", "high", "critical"],
+            "description": "Emotional importance to story"
+          },
+          "resolution_earned": {
+            "type": "boolean",
+            "description": "Whether resolution has been narratively earned"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Additional notes about this thread"
+          }
+        }
+      }
+    },
+    "foreshadowing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "hint_scene", "payoff_scene", "thread_id"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^foreshadow_[0-9]{2,3}$"
+          },
+          "hint_scene": {
+            "type": "string",
+            "description": "Scene containing the hint"
+          },
+          "payoff_scene": {
+            "type": ["string", "null"],
+            "description": "Scene where hint pays off"
+          },
+          "thread_id": {
+            "type": "string",
+            "description": "Related plot thread"
+          },
+          "hint_type": {
+            "type": "string",
+            "enum": ["dialogue", "object", "behavior", "setting", "narration"]
+          },
+          "subtlety": {
+            "type": "string",
+            "enum": ["obvious", "moderate", "subtle", "hidden"]
+          },
+          "description": {
+            "type": "string"
+          },
+          "paid_off": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      }
+    },
+    "reader_questions": {
+      "type": "array",
+      "description": "Questions the reader should be asking",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question": { "type": "string" },
+          "raised_scene": { "type": "string" },
+          "answered_scene": { "type": ["string", "null"] },
+          "related_thread": { "type": "string" }
+        }
+      }
+    }
+  }
+}

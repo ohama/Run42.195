@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "pov": "third_limited",
+  "tense": "past",
+  "voice": "clean",
+  "narrative_distance": "medium",
+  "forbidden_phrases": [
+    "suddenly",
+    "all at once",
+    "couldn't help but"
+  ],
+  "cliche_watchlist": [
+    "eyes widened",
+    "heart pounded",
+    "let out a breath she didn't realize she was holding"
+  ],
+  "usage_stats": {}
+}

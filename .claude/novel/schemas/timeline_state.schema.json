@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "timeline_state.schema.json",
+  "title": "Timeline State",
+  "description": "Tracks chronology, event ordering, and date constraints",
+  "type": "object",
+  "required": ["schema_version", "anchors", "events"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version for migration support",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "anchors": {
+      "type": "array",
+      "description": "Fixed dates that cannot change (immutable timeline points)",
+      "items": {
+        "type": "object",
+        "required": ["date", "event"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "description": "Anchor date (ISO 8601)",
+            "format": "date"
+          },
+          "event": {
+            "type": "string",
+            "description": "What happens on this date"
+          },
+          "scene_id": {
+            "type": "string",
+            "description": "Associated scene if applicable",
+            "pattern": "^ch\\d{2}_s\\d{2}$"
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "description": "All dated events in chronological order",
+      "items": {
+        "type": "object",
+        "required": ["date", "description"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "description": "Event date (ISO 8601)",
+            "format": "date"
+          },
+          "time": {
+            "type": "string",
+            "description": "Event time if known (HH:MM format)",
+            "pattern": "^\\d{2}:\\d{2}$"
+          },
+          "description": {
+            "type": "string",
+            "description": "What happens"
+          },
+          "scene_id": {
+            "type": "string",
+            "description": "Associated scene if applicable",
+            "pattern": "^ch\\d{2}_s\\d{2}$"
+          },
+          "type": {
+            "type": "string",
+            "description": "Event type classification",
+            "enum": ["plot", "milestone", "background", "deadline"]
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "description": "Ordering rules (X must happen before Y)",
+      "items": {
+        "type": "object",
+        "required": ["before", "after"],
+        "properties": {
+          "before": {
+            "type": "string",
+            "description": "Event that must come first"
+          },
+          "after": {
+            "type": "string",
+            "description": "Event that must come after"
+          },
+          "reason": {
+            "type": "string",
+            "description": "Why this constraint exists"
+          }
+        }
+      }
+    }
+  }
+}

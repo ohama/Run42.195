@@ -1,0 +1,92 @@
+---
+# EPUB Metadata Template
+# Edit this file before running /novel:publish
+# Fields marked [REQUIRED] must be set
+# See: https://pandoc.org/MANUAL.html#epub-metadata
+
+# Book Title
+# type: main (primary title), subtitle (optional)
+title:
+  - type: main
+    text: "[REQUIRED] Your Novel Title"
+  - type: subtitle
+    text: ""
+
+# Author Information
+# role: author, editor, translator, etc.
+creator:
+  - role: author
+    text: "[REQUIRED] Author Name"
+
+# Unique Book Identifier
+# scheme: UUID, ISBN, DOI, etc.
+# Auto-generated if left empty
+identifier:
+  - scheme: UUID
+    text: ""
+
+# Language Code (ISO 639-1)
+# Common codes: ko (Korean), en (English), ja (Japanese), zh (Chinese)
+language: ko
+
+# Copyright Notice
+# Replace [YEAR] and [Author Name] with actual values
+rights: "Copyright [YEAR] [Author Name]. All Rights Reserved."
+
+# Publication Date (YYYY-MM-DD format)
+# Leave empty for auto-fill with current date
+date: ""
+
+# Cover Image Path
+# Relative to project root
+# Recommended size: 1000x1500 pixels (2:3 aspect ratio)
+# Supported formats: PNG, JPEG
+cover-image: ""
+
+# Book Description / Synopsis
+# Used by e-reader stores and library apps
+# Keep under 500 words for best compatibility
+description: |
+  [Add your book description here]
+
+  This blurb appears in e-reader catalogs and helps readers
+  discover your book. Include genre, premise, and hook.
+
+# Genre / Category Tags
+# Used for categorization in e-book stores
+subject:
+  - Fiction
+  - Literary Fiction
+
+# Publisher Name
+# For self-published works, use your name or imprint
+publisher: "Self-Published"
+
+# Contributor (optional)
+# For editors, cover artists, etc.
+# contributor:
+#   - role: editor
+#     text: "Editor Name"
+#   - role: illustrator
+#     text: "Artist Name"
+
+# Source (optional)
+# Original source if this is an adaptation or translation
+# source: ""
+
+# Relation (optional)
+# Related works (sequels, prequels, series)
+# relation: ""
+
+# Coverage (optional)
+# Geographical or temporal coverage
+# coverage: ""
+
+# Custom CSS file
+# Path relative to draft/compiled/
+css: "epub.css"
+
+# Reading direction (optional)
+# default: left-to-right
+# page-progression-direction: ltr
+---

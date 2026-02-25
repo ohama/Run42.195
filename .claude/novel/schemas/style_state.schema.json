@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "style_state.schema.json",
+  "title": "Style State",
+  "description": "Tracks POV, tense, voice consistency, and forbidden phrases",
+  "type": "object",
+  "required": ["schema_version", "pov", "tense", "voice"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version for migration support",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "pov": {
+      "type": "string",
+      "description": "Narrative point of view",
+      "enum": ["first", "second", "third_limited", "third_omniscient"]
+    },
+    "tense": {
+      "type": "string",
+      "description": "Narrative tense",
+      "enum": ["past", "present"]
+    },
+    "voice": {
+      "type": "string",
+      "description": "Writing voice style",
+      "enum": ["clean", "lyrical", "minimal", "ornate"]
+    },
+    "narrative_distance": {
+      "type": "string",
+      "description": "Narrative distance from character",
+      "enum": ["close", "medium", "far"]
+    },
+    "forbidden_phrases": {
+      "type": "array",
+      "description": "Phrases that should never appear in prose",
+      "items": {
+        "type": "string"
+      },
+      "default": ["suddenly", "all at once", "couldn't help but"]
+    },
+    "cliche_watchlist": {
+      "type": "array",
+      "description": "Phrases to flag but not auto-reject",
+      "items": {
+        "type": "string"
+      },
+      "default": [
+        "eyes widened",
+        "heart pounded",
+        "let out a breath she didn't realize she was holding"
+      ]
+    },
+    "usage_stats": {
+      "type": "object",
+      "description": "Track phrase frequency for variation checking",
+      "additionalProperties": {
+        "type": "integer",
+        "description": "Usage count for this phrase",
+        "minimum": 0
+      }
+    }
+  }
+}

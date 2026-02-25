@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "character_state.schema.json",
+  "title": "Character State",
+  "description": "Tracks character arcs, relationships, voice notes, and emotional states",
+  "type": "object",
+  "required": ["schema_version", "characters"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version for migration support",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "characters": {
+      "type": "object",
+      "description": "Character registry keyed by character name",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name", "role"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Character full name"
+          },
+          "role": {
+            "type": "string",
+            "description": "Character's story role",
+            "enum": ["protagonist", "antagonist", "supporting", "minor"]
+          },
+          "arc_stage": {
+            "type": "string",
+            "description": "Current position in character arc",
+            "enum": ["setup", "rising", "crisis", "climax", "resolution"]
+          },
+          "emotional_state": {
+            "type": "string",
+            "description": "Current emotional state (free text)"
+          },
+          "last_appearance": {
+            "type": "string",
+            "description": "Last scene where character appeared",
+            "pattern": "^ch\\d{2}_s\\d{2}$"
+          },
+          "development_notes": {
+            "type": "array",
+            "description": "Notes on character development",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "description": "Character relationship mappings",
+      "items": {
+        "type": "object",
+        "required": ["char_a", "char_b", "type"],
+        "properties": {
+          "char_a": {
+            "type": "string",
+            "description": "First character in relationship"
+          },
+          "char_b": {
+            "type": "string",
+            "description": "Second character in relationship"
+          },
+          "type": {
+            "type": "string",
+            "description": "Relationship type",
+            "enum": ["ally", "enemy", "romantic", "mentor", "neutral"]
+          },
+          "status": {
+            "type": "string",
+            "description": "Current relationship status (free text)"
+          },
+          "established_in": {
+            "type": "string",
+            "description": "Scene where relationship was established",
+            "pattern": "^ch\\d{2}_s\\d{2}$"
+          }
+        }
+      }
+    },
+    "voice_notes": {
+      "type": "object",
+      "description": "Character voice patterns keyed by character name",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "speech_patterns": {
+            "type": "array",
+            "description": "Distinctive speech patterns",
+            "items": {
+              "type": "string"
+            }
+          },
+          "vocabulary": {
+            "type": "array",
+            "description": "Characteristic words and phrases",
+            "items": {
+              "type": "string"
+            }
+          },
+          "mannerisms": {
+            "type": "array",
+            "description": "Physical and verbal mannerisms",
+            "items": {
+              "type": "string"
+            }
+          },
+          "example_lines": {
+            "type": "array",
+            "description": "Example dialogue lines for reference",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "arc_notes": {
+      "type": "object",
+      "description": "Character arc tracking keyed by character name",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "want": {
+            "type": "string",
+            "description": "What the character consciously wants"
+          },
+          "need": {
+            "type": "string",
+            "description": "What the character actually needs"
+          },
+          "lie_believed": {
+            "type": "string",
+            "description": "The false belief holding the character back"
+          },
+          "truth_learned": {
+            "type": "string",
+            "description": "The truth they must discover"
+          },
+          "transformation_status": {
+            "type": "string",
+            "description": "Arc completion status",
+            "enum": ["not_started", "in_progress", "complete"]
+          }
+        }
+      }
+    },
+    "emotional_arcs": {
+      "type": "object",
+      "description": "Detailed emotional trajectory tracking per character",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "baseline_emotion": {
+            "type": "string",
+            "description": "Character's default emotional state"
+          },
+          "current_emotion": {
+            "type": "string",
+            "description": "Current emotional state"
+          },
+          "current_intensity": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10,
+            "description": "Emotional intensity (1=calm, 10=overwhelming)"
+          },
+          "trajectory": {
+            "type": "array",
+            "description": "Emotional state history",
+            "items": {
+              "type": "object",
+              "properties": {
+                "scene_id": { "type": "string" },
+                "emotion": { "type": "string" },
+                "intensity": { "type": "integer", "minimum": 1, "maximum": 10 },
+                "trigger": { "type": "string" },
+                "notes": { "type": "string" }
+              }
+            }
+          },
+          "fatigue_level": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10,
+            "description": "Emotional exhaustion level (needs recovery if high)"
+          },
+          "last_recovery_scene": {
+            "type": "string",
+            "description": "Last scene where character had emotional breather"
+          },
+          "breakthrough_moments": {
+            "type": "array",
+            "description": "Key emotional breakthrough scenes",
+            "items": {
+              "type": "object",
+              "properties": {
+                "scene_id": { "type": "string" },
+                "realization": { "type": "string" },
+                "arc_impact": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "knowledge_timeline": {
+      "type": "object",
+      "description": "Tracks what each character knows and when they learned it",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "fact": { "type": "string" },
+            "learned_scene": { "type": "string" },
+            "source": { "type": "string" },
+            "can_share": { "type": "boolean", "default": true }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "story_state.schema.json",
+  "title": "Story State",
+  "description": "Tracks overall project progress, scenes, chapters, and plot threads",
+  "type": "object",
+  "required": ["schema_version", "project", "progress", "current"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version for migration support (1.1 adds revision tracking, 1.2 adds version management)",
+      "pattern": "^\\d+\\.\\d+$",
+      "const": "1.2"
+    },
+    "project": {
+      "type": "object",
+      "description": "Project metadata and configuration",
+      "required": ["title", "version", "format"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Novel title",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "version": {
+          "type": "string",
+          "description": "Project version (semantic)",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "format": {
+          "type": "string",
+          "description": "Story format type",
+          "enum": ["chapter", "diary", "short_story", "serial"]
+        },
+        "created_at": {
+          "type": "string",
+          "description": "Project creation timestamp (ISO 8601)",
+          "format": "date-time"
+        },
+        "last_modified": {
+          "type": "string",
+          "description": "Last modification timestamp (ISO 8601)",
+          "format": "date-time"
+        },
+        "git_integration": {
+          "type": "object",
+          "description": "Git integration settings",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "description": "Enable git integration"
+            },
+            "auto_commit_canon": {
+              "type": "boolean",
+              "description": "Auto-commit canon changes"
+            },
+            "auto_commit_scenes": {
+              "type": "boolean",
+              "description": "Auto-commit completed scenes"
+            },
+            "auto_commit_state": {
+              "type": "boolean",
+              "description": "Auto-commit state changes"
+            }
+          }
+        }
+      }
+    },
+    "progress": {
+      "type": "object",
+      "description": "Project progress tracking",
+      "properties": {
+        "outline": {
+          "type": "string",
+          "description": "Outline completion status",
+          "enum": ["not_started", "in_progress", "complete"]
+        },
+        "beat_plan": {
+          "type": "string",
+          "description": "Beat plan completion status",
+          "enum": ["not_started", "in_progress", "complete"]
+        },
+        "draft": {
+          "type": "string",
+          "description": "Draft completion status",
+          "enum": ["not_started", "in_progress", "complete"]
+        },
+        "total_word_count": {
+          "type": "integer",
+          "description": "Total words written across all scenes",
+          "minimum": 0
+        }
+      }
+    },
+    "current": {
+      "type": "object",
+      "description": "Current writing position",
+      "required": ["chapter", "scene"],
+      "properties": {
+        "chapter": {
+          "type": "integer",
+          "description": "Current chapter number",
+          "minimum": 1
+        },
+        "scene": {
+          "type": "integer",
+          "description": "Current scene number within chapter",
+          "minimum": 1
+        },
+        "date": {
+          "type": "string",
+          "description": "For diary format: current entry date (ISO 8601)",
+          "format": "date"
+        }
+      }
+    },
+    "open_threads": {
+      "type": "array",
+      "description": "Active plot threads requiring resolution",
+      "items": {
+        "type": "object",
+        "required": ["id", "description"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique thread identifier"
+          },
+          "description": {
+            "type": "string",
+            "description": "What the thread is about"
+          },
+          "introduced_in": {
+            "type": "string",
+            "description": "Scene ID where thread was introduced",
+            "pattern": "^ch\\d{2}_s\\d{2}$"
+          }
+        }
+      }
+    },
+    "resolved_threads": {
+      "type": "array",
+      "description": "Plot threads that have been resolved",
+      "items": {
+        "type": "object",
+        "required": ["id", "resolved_in"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Thread identifier (matches open_threads.id)"
+          },
+          "resolved_in": {
+            "type": "string",
+            "description": "Scene ID where thread was resolved",
+            "pattern": "^ch\\d{2}_s\\d{2}$"
+          }
+        }
+      }
+    },
+    "scene_index": {
+      "type": "array",
+      "description": "Central registry of all scenes with status",
+      "items": {
+        "type": "object",
+        "required": ["id", "chapter", "scene", "status"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Scene identifier (chXX_sYY format)",
+            "pattern": "^ch\\d{2}_s\\d{2}$"
+          },
+          "chapter": {
+            "type": "integer",
+            "description": "Chapter number",
+            "minimum": 1
+          },
+          "scene": {
+            "type": "integer",
+            "description": "Scene number within chapter",
+            "minimum": 1
+          },
+          "status": {
+            "type": "string",
+            "description": "Scene completion status",
+            "enum": ["planned", "drafted", "needs_revision", "approved"]
+          },
+          "revision_count": {
+            "type": "integer",
+            "description": "Number of revision cycles for this scene",
+            "minimum": 0,
+            "default": 0
+          },
+          "revision_history": {
+            "type": "array",
+            "description": "History of revision cycles with check reports and decisions",
+            "items": {
+              "type": "object",
+              "required": ["cycle", "timestamp", "check_report", "issues_found", "decision"],
+              "properties": {
+                "cycle": {
+                  "type": "integer",
+                  "description": "Revision cycle number",
+                  "minimum": 1
+                },
+                "timestamp": {
+                  "type": "string",
+                  "description": "When this check was performed (ISO 8601)",
+                  "format": "date-time"
+                },
+                "check_report": {
+                  "type": "string",
+                  "description": "Path to check_reports directory for this cycle"
+                },
+                "issues_found": {
+                  "type": "object",
+                  "description": "Issue counts from quality check",
+                  "properties": {
+                    "critical": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "major": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "minor": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  }
+                },
+                "decision": {
+                  "type": "string",
+                  "description": "Quality gate decision for this cycle",
+                  "enum": ["approved", "needs_revision"]
+                },
+                "blocking_issues": {
+                  "type": "array",
+                  "description": "Brief descriptions of blocking issues",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "editorial_focus": {
+                  "type": "array",
+                  "description": "Checkers that flagged this scene",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "last_check": {
+            "type": "string",
+            "description": "Timestamp of most recent quality check (ISO 8601)",
+            "format": "date-time"
+          },
+          "approved_at": {
+            "type": "string",
+            "description": "Timestamp when scene was approved (ISO 8601)",
+            "format": "date-time"
+          },
+          "word_count": {
+            "type": "integer",
+            "description": "Word count for this scene",
+            "minimum": 0
+          },
+          "date": {
+            "type": "string",
+            "description": "For diary format: entry date",
+            "format": "date"
+          },
+          "pov": {
+            "type": "string",
+            "description": "POV character for this scene"
+          }
+        }
+      }
+    },
+    "diary_metadata": {
+      "type": "object",
+      "description": "Diary format specific metadata (only for format: diary)",
+      "properties": {
+        "start_date": {
+          "type": "string",
+          "description": "First diary entry date",
+          "format": "date"
+        },
+        "current_date": {
+          "type": "string",
+          "description": "Current diary date",
+          "format": "date"
+        },
+        "end_date": {
+          "type": "string",
+          "description": "Planned final entry date",
+          "format": "date"
+        },
+        "entries_per_week": {
+          "type": "integer",
+          "description": "Target entries per week",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "total_duration_weeks": {
+          "type": "integer",
+          "description": "Total story duration in weeks",
+          "minimum": 1
+        },
+        "seasonal_progression": {
+          "type": "object",
+          "description": "Track seasonal changes",
+          "properties": {
+            "current_season": {
+              "type": "string",
+              "description": "Current story season",
+              "enum": ["spring", "summer", "fall", "winter"]
+            }
+          }
+        },
+        "growth_milestones": {
+          "type": "array",
+          "description": "Character growth milestones for diary narratives",
+          "items": {
+            "type": "object",
+            "required": ["date", "milestone", "status"],
+            "properties": {
+              "date": {
+                "type": "string",
+                "description": "Milestone target date",
+                "format": "date"
+              },
+              "milestone": {
+                "type": "string",
+                "description": "What the milestone represents"
+              },
+              "status": {
+                "type": "string",
+                "description": "Milestone completion status",
+                "enum": ["pending", "completed", "failed"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "versions": {
+      "type": "object",
+      "description": "Version management for draft snapshots",
+      "properties": {
+        "snapshots": {
+          "type": "array",
+          "description": "Array of snapshot summaries",
+          "items": {
+            "type": "object",
+            "required": ["snapshot_id", "timestamp", "trigger", "scenes_count"],
+            "properties": {
+              "snapshot_id": {
+                "type": "string",
+                "description": "Unique snapshot identifier",
+                "pattern": "^snap_\\d{4}-\\d{2}-\\d{2}_\\d{2}-\\d{2}-\\d{2}$"
+              },
+              "timestamp": {
+                "type": "string",
+                "description": "When snapshot was created (ISO 8601)",
+                "format": "date-time"
+              },
+              "trigger": {
+                "type": "string",
+                "description": "What triggered this snapshot",
+                "enum": ["revision_cycle", "manual", "pre_publish"]
+              },
+              "scenes_count": {
+                "type": "integer",
+                "description": "Number of scenes in snapshot",
+                "minimum": 0
+              }
+            }
+          },
+          "default": []
+        },
+        "last_snapshot": {
+          "type": "string",
+          "description": "Most recent snapshot ID",
+          "default": ""
+        },
+        "last_rollback": {
+          "type": ["object", "null"],
+          "description": "Details of most recent rollback operation",
+          "properties": {
+            "snapshot_id": {
+              "type": "string",
+              "description": "Snapshot that was restored from"
+            },
+            "timestamp": {
+              "type": "string",
+              "description": "When rollback occurred (ISO 8601)",
+              "format": "date-time"
+            },
+            "scenes_restored": {
+              "type": "array",
+              "description": "Scene IDs that were restored",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "default": {
+        "snapshots": [],
+        "last_snapshot": "",
+        "last_rollback": null
+      }
+    }
+  }
+}

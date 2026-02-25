@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "title": "Untitled Novel",
+    "version": "1.0",
+    "format": "chapter",
+    "created_at": "",
+    "last_modified": "",
+    "git_integration": {
+      "enabled": true,
+      "auto_commit_canon": true,
+      "auto_commit_scenes": true,
+      "auto_commit_state": false
+    }
+  },
+  "progress": {
+    "outline": "not_started",
+    "beat_plan": "not_started",
+    "draft": "not_started",
+    "total_word_count": 0
+  },
+  "current": {
+    "chapter": 1,
+    "scene": 1
+  },
+  "open_threads": [],
+  "resolved_threads": [],
+  "scene_index": []
+}

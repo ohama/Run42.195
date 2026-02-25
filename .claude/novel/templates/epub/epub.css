@@ -1,0 +1,391 @@
+/*
+ * EPUB Default Stylesheet
+ * Novel Engine - Customizable typography for e-readers
+ *
+ * Customize this file for your novel's visual style.
+ * Test on multiple e-readers (Kindle, Kobo, Apple Books).
+ */
+
+/* ============================================
+   BASE TYPOGRAPHY
+   ============================================ */
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 1em;
+  text-align: justify;
+  orphans: 2;
+  widows: 2;
+}
+
+/* ============================================
+   CHAPTER HEADINGS
+   ============================================ */
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  page-break-before: always;
+  page-break-after: avoid;
+}
+
+/* First chapter - no page break before */
+body > h1:first-child,
+section:first-of-type > h1:first-child {
+  page-break-before: avoid;
+  margin-top: 2em;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* ============================================
+   SCENE BREAKS
+   ============================================ */
+
+hr {
+  border: none;
+  text-align: center;
+  margin: 2em auto;
+  height: 1em;
+}
+
+hr::before {
+  content: "* * *";
+  color: #666666;
+  font-size: 1em;
+  letter-spacing: 0.5em;
+}
+
+/* Alternative scene break styles (uncomment to use)
+hr::before {
+  content: "---";
+}
+hr::before {
+  content: "\2022 \2022 \2022";
+}
+*/
+
+/* ============================================
+   PARAGRAPHS
+   ============================================ */
+
+p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+/* First paragraph after heading - no indent */
+h1 + p,
+h2 + p,
+h3 + p,
+hr + p {
+  text-indent: 0;
+}
+
+/* First paragraph of type - drop cap effect optional */
+p:first-of-type {
+  text-indent: 0;
+}
+
+/* ============================================
+   EMPHASIS & FORMATTING
+   ============================================ */
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Small caps for acronyms */
+abbr {
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+/* ============================================
+   BLOCKQUOTES
+   Internal monologue, letters, documents
+   ============================================ */
+
+blockquote {
+  font-style: italic;
+  margin: 1.5em 2em;
+  padding-left: 1em;
+  border-left: 2px solid #cccccc;
+}
+
+blockquote p {
+  text-indent: 0;
+}
+
+blockquote em {
+  font-style: normal;
+}
+
+/* ============================================
+   DIARY FORMAT ELEMENTS
+   ============================================ */
+
+/* Diary entry date headers */
+.diary-date {
+  font-style: italic;
+  text-align: center;
+  margin: 1.5em 0 1em 0;
+  font-size: 0.9em;
+  color: #555555;
+}
+
+/* Journal/letter salutation */
+.salutation {
+  font-style: italic;
+  margin-bottom: 1em;
+  text-indent: 0;
+}
+
+/* Journal/letter signature */
+.signature {
+  text-align: right;
+  font-style: italic;
+  margin-top: 1.5em;
+}
+
+/* ============================================
+   KOREAN TEXT OPTIMIZATION
+   ============================================ */
+
+:lang(ko) {
+  /* Prevent breaking within words */
+  word-break: keep-all;
+
+  /* Increased line height for Korean readability */
+  line-height: 1.8;
+
+  /* Slightly larger font for CJK characters */
+  font-size: 1.05em;
+
+  /* Left-align for Korean (justified can create awkward spacing) */
+  text-align: left;
+}
+
+:lang(ko) h1,
+:lang(ko) h2 {
+  /* Korean headings */
+  word-break: keep-all;
+}
+
+:lang(ko) p {
+  /* Korean paragraphs - larger indent */
+  text-indent: 2em;
+}
+
+/* ============================================
+   JAPANESE TEXT OPTIMIZATION
+   ============================================ */
+
+:lang(ja) {
+  word-break: normal;
+  line-height: 1.8;
+  font-size: 1.05em;
+}
+
+/* ============================================
+   CHINESE TEXT OPTIMIZATION
+   ============================================ */
+
+:lang(zh) {
+  word-break: normal;
+  line-height: 1.8;
+  font-size: 1.05em;
+}
+
+/* ============================================
+   LINKS (for internal/external references)
+   ============================================ */
+
+a {
+  color: #336699;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================
+   LISTS (for outlines, notes)
+   ============================================ */
+
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* ============================================
+   IMAGES
+   ============================================ */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+/* Cover image */
+img.cover {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+/* ============================================
+   FRONT/BACK MATTER
+   ============================================ */
+
+/* Title page */
+.title-page {
+  text-align: center;
+  margin-top: 30%;
+}
+
+.title-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  page-break-before: avoid;
+}
+
+.title-page .author {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/* Copyright page */
+.copyright {
+  font-size: 0.85em;
+  margin-top: 3em;
+  text-align: center;
+}
+
+/* Dedication */
+.dedication {
+  font-style: italic;
+  text-align: center;
+  margin: 3em 2em;
+}
+
+/* Epigraph */
+.epigraph {
+  font-style: italic;
+  text-align: right;
+  margin: 2em 3em;
+  font-size: 0.95em;
+}
+
+.epigraph-source {
+  font-style: normal;
+  margin-top: 0.5em;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   (auto-generated by Pandoc)
+   ============================================ */
+
+nav#toc {
+  page-break-before: always;
+}
+
+nav#toc ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav#toc li {
+  margin-bottom: 0.5em;
+}
+
+nav#toc a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ============================================
+   PRINT ADJUSTMENTS
+   (for PDF/print export)
+   ============================================ */
+
+@media print {
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  h1 {
+    page-break-before: always;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+/* ============================================
+   E-INK OPTIMIZATION
+   (grayscale adjustments)
+   ============================================ */
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  hr::before {
+    color: #444444;
+  }
+}
+
+/* Night mode support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  hr::before {
+    color: #888888;
+  }
+
+  blockquote {
+    border-left-color: #555555;
+  }
+}
