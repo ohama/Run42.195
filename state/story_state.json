@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 37324
+    "total_word_count": 44584
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-07-04",
+    "current_date": "2024-07-29",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -68,6 +68,13 @@
     {"scene_id": "entry_033", "date": "2024-06-27", "title": "민서 같이 달릴래?", "status": "drafted", "word_count": 1078},
     {"scene_id": "entry_034", "date": "2024-07-01", "title": "7월의 폭염", "status": "drafted", "word_count": 1034},
     {"scene_id": "entry_035", "date": "2024-07-04", "title": "더위와의 싸움", "status": "drafted", "word_count": 1067},
-    {"scene_id": "entry_036", "date": "2024-07-08", "title": "태풍이 온다", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_036", "date": "2024-07-08", "title": "태풍이 온다", "status": "drafted", "word_count": 1023},
+    {"scene_id": "entry_037", "date": "2024-07-11", "title": "못 달린 지 3일", "status": "drafted", "word_count": 1012},
+    {"scene_id": "entry_038", "date": "2024-07-15", "title": "태풍이 지나고", "status": "drafted", "word_count": 1045},
+    {"scene_id": "entry_039", "date": "2024-07-18", "title": "왜 달리는 거지?", "status": "drafted", "word_count": 1056},
+    {"scene_id": "entry_040", "date": "2024-07-22", "title": "다시 버스를 탔다", "status": "drafted", "word_count": 1034},
+    {"scene_id": "entry_041", "date": "2024-07-25", "title": "슬럼프 탈출", "status": "drafted", "word_count": 1023},
+    {"scene_id": "entry_042", "date": "2024-07-29", "title": "여름방학이 시작됐다", "status": "drafted", "word_count": 1067},
+    {"scene_id": "entry_043", "date": "2024-08-01", "title": "10km를 향해", "status": "planned", "word_count": 0}
   ]
 }
