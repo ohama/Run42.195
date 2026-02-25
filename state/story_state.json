@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 53033
+    "total_word_count": 54111
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-08-26",
+    "current_date": "2024-09-02",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -83,6 +83,7 @@
     {"scene_id": "entry_048", "date": "2024-08-19", "title": "마라톤 대회가 있대", "status": "drafted", "word_count": 1089},
     {"scene_id": "entry_049", "date": "2024-08-22", "title": "10km 대회 신청", "status": "drafted", "word_count": 1067},
     {"scene_id": "entry_050", "date": "2024-08-26", "title": "2학기가 시작된다", "status": "drafted", "word_count": 1045},
-    {"scene_id": "entry_051", "date": "2024-09-02", "title": "2학기 첫날", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_051", "date": "2024-09-02", "title": "2학기 첫날", "status": "drafted", "word_count": 1078},
+    {"scene_id": "entry_052", "date": "2024-09-05", "title": "대회 D-30", "status": "planned", "word_count": 0}
   ]
 }
