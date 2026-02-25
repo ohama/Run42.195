@@ -74,3 +74,4 @@
 
 - [51회: 2학기 첫날](scenes/entry_051.md)
 - [52회: 대회 D-30](scenes/entry_052.md)
+- [53회: 가을이 왔다](scenes/entry_053.md)
