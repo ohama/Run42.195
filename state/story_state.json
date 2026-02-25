@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 44584
+    "total_word_count": 53033
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-07-29",
+    "current_date": "2024-08-26",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -75,6 +75,14 @@
     {"scene_id": "entry_040", "date": "2024-07-22", "title": "다시 버스를 탔다", "status": "drafted", "word_count": 1034},
     {"scene_id": "entry_041", "date": "2024-07-25", "title": "슬럼프 탈출", "status": "drafted", "word_count": 1023},
     {"scene_id": "entry_042", "date": "2024-07-29", "title": "여름방학이 시작됐다", "status": "drafted", "word_count": 1067},
-    {"scene_id": "entry_043", "date": "2024-08-01", "title": "10km를 향해", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_043", "date": "2024-08-01", "title": "방학 아침 루틴", "status": "drafted", "word_count": 1034},
+    {"scene_id": "entry_044", "date": "2024-08-05", "title": "7km가 쉬워졌다", "status": "drafted", "word_count": 1012},
+    {"scene_id": "entry_045", "date": "2024-08-08", "title": "10km 도전", "status": "drafted", "word_count": 1123},
+    {"scene_id": "entry_046", "date": "2024-08-12", "title": "민서와 함께", "status": "drafted", "word_count": 1056},
+    {"scene_id": "entry_047", "date": "2024-08-15", "title": "광복절 아침", "status": "drafted", "word_count": 1023},
+    {"scene_id": "entry_048", "date": "2024-08-19", "title": "마라톤 대회가 있대", "status": "drafted", "word_count": 1089},
+    {"scene_id": "entry_049", "date": "2024-08-22", "title": "10km 대회 신청", "status": "drafted", "word_count": 1067},
+    {"scene_id": "entry_050", "date": "2024-08-26", "title": "2학기가 시작된다", "status": "drafted", "word_count": 1045},
+    {"scene_id": "entry_051", "date": "2024-09-02", "title": "2학기 첫날", "status": "planned", "word_count": 0}
   ]
 }
