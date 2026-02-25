@@ -1,7 +1,7 @@
 [book]
-title = "My Novel"  # TODO: 소설 제목으로 변경
-authors = ["Author"]  # TODO: 작가 이름으로 변경
-description = "소설 설명"  # TODO: 소설 설명으로 변경
+title = "달리는 일기"
+authors = ["ohama"]
+description = "버스 멀미하던 중학생이 마라톤 풀코스를 완주하기까지의 1년간의 일기"
 language = "ko"
 src = "src"
 
@@ -11,5 +11,5 @@ build-dir = "docs"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "ayu"
-# git-repository-url = "https://github.com/username/my-novel"  # TODO: 저장소 URL
-# site-url = "/my-novel/"  # TODO: 저장소 이름
+git-repository-url = "https://github.com/ohama/Run42.195"
+site-url = "/Run42.195/"
