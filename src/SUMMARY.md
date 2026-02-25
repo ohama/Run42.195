@@ -75,3 +75,8 @@
 - [51회: 2학기 첫날](scenes/entry_051.md)
 - [52회: 대회 D-30](scenes/entry_052.md)
 - [53회: 가을이 왔다](scenes/entry_053.md)
+- [54회: 억새밭을 지나며](scenes/entry_054.md)
+- [55회: 아빠의 관심](scenes/entry_055.md)
+- [56회: 페이스 조절](scenes/entry_056.md)
+- [57회: 10km 연습](scenes/entry_057.md)
+- [58회: D-7](scenes/entry_058.md)

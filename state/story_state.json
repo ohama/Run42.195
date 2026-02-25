@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 56201
+    "total_word_count": 61470
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-09-09",
+    "current_date": "2024-09-26",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -86,6 +86,11 @@
     {"scene_id": "entry_051", "date": "2024-09-02", "title": "2학기 첫날", "status": "drafted", "word_count": 1078},
     {"scene_id": "entry_052", "date": "2024-09-05", "title": "대회 D-30", "status": "drafted", "word_count": 1056},
     {"scene_id": "entry_053", "date": "2024-09-09", "title": "가을이 왔다", "status": "drafted", "word_count": 1034},
-    {"scene_id": "entry_054", "date": "2024-09-12", "title": "억새밭을 지나며", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_054", "date": "2024-09-12", "title": "억새밭을 지나며", "status": "drafted", "word_count": 1045},
+    {"scene_id": "entry_055", "date": "2024-09-16", "title": "아빠의 관심", "status": "drafted", "word_count": 1067},
+    {"scene_id": "entry_056", "date": "2024-09-19", "title": "페이스 조절", "status": "drafted", "word_count": 1056},
+    {"scene_id": "entry_057", "date": "2024-09-23", "title": "10km 연습", "status": "drafted", "word_count": 1078},
+    {"scene_id": "entry_058", "date": "2024-09-26", "title": "D-7", "status": "drafted", "word_count": 1023},
+    {"scene_id": "entry_059", "date": "2024-09-30", "title": "컨디션 조절", "status": "planned", "word_count": 0}
   ]
 }
