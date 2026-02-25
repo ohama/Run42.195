@@ -80,3 +80,67 @@
 - [56회: 페이스 조절](scenes/entry_056.md)
 - [57회: 10km 연습](scenes/entry_057.md)
 - [58회: D-7](scenes/entry_058.md)
+- [59회: 컨디션 조절](scenes/entry_059.md)
+
+# 10월 - 첫 대회
+
+- [60회: 개천절, 내일이 대회](scenes/entry_060.md)
+- [61회: 첫 대회 완주](scenes/entry_061.md)
+- [62회: 완주 메달](scenes/entry_062.md)
+- [63회: 새로운 목표](scenes/entry_063.md)
+- [64회: 감귤 수확철](scenes/entry_064.md)
+- [65회: 15km 도전](scenes/entry_065.md)
+- [66회: 단풍이 들었다](scenes/entry_066.md)
+- [67회: 하프 대회 신청](scenes/entry_067.md)
+- [68회: 17km 롱런](scenes/entry_068.md)
+
+# 11월 - 하프마라톤
+
+- [69회: D-20](scenes/entry_069.md)
+- [70회: 민서의 응원](scenes/entry_070.md)
+- [71회: 12km 조정 러닝](scenes/entry_071.md)
+- [72회: 긴장되기 시작했다](scenes/entry_072.md)
+- [73회: 대회 주간](scenes/entry_073.md)
+- [74회: 마지막 러닝](scenes/entry_074.md)
+- [75회: 하프마라톤 완주](scenes/entry_075.md)
+- [76회: 회복](scenes/entry_076.md)
+
+# 12월 - 새로운 결심
+
+- [77회: 다시 뛰기 시작](scenes/entry_077.md)
+- [78회: 겨울 달리기](scenes/entry_078.md)
+- [79회: 풀코스 결심](scenes/entry_079.md)
+- [80회: 훈련 계획](scenes/entry_080.md)
+- [81회: 15km 롱런](scenes/entry_081.md)
+- [82회: 연말](scenes/entry_082.md)
+- [83회: 겨울방학 시작](scenes/entry_083.md)
+- [84회: 크리스마스 다음 날](scenes/entry_084.md)
+- [85회: 2024년 마지막 러닝](scenes/entry_085.md)
+
+# 1월 - 풀코스 준비
+
+- [86회: 새해 첫 러닝](scenes/entry_086.md)
+- [87회: 2학년이 다가온다](scenes/entry_087.md)
+- [88회: 25km 도전](scenes/entry_088.md)
+- [89회: 2학년 첫날](scenes/entry_089.md)
+- [90회: 회복의 중요성](scenes/entry_090.md)
+- [91회: 30km 도전](scenes/entry_091.md)
+- [92회: 설 연휴](scenes/entry_092.md)
+- [93회: D-34](scenes/entry_093.md)
+- [94회: 마지막 롱런 25km](scenes/entry_094.md)
+
+# 2월 - 테이퍼링
+
+- [95회: 2월이 시작됐다](scenes/entry_095.md)
+- [96회: 1년 전을 생각하다](scenes/entry_096.md)
+- [97회: 유채꽃이 피기 시작했다](scenes/entry_097.md)
+- [98회: D-17](scenes/entry_098.md)
+- [99회: 2주 전](scenes/entry_099.md)
+- [100회: 1주일 전](scenes/entry_100.md)
+- [101회: 대회 주간](scenes/entry_101.md)
+- [102회: 마지막 러닝](scenes/entry_102.md)
+
+# 3월 - 완주
+
+- [103회: 내일이 대회](scenes/entry_103.md)
+- [104회: 42.195km](scenes/entry_104.md)
