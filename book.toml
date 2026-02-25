@@ -1,0 +1,15 @@
+[book]
+title = "My Novel"  # TODO: 소설 제목으로 변경
+authors = ["Author"]  # TODO: 작가 이름으로 변경
+description = "소설 설명"  # TODO: 소설 설명으로 변경
+language = "ko"
+src = "src"
+
+[build]
+build-dir = "docs"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+# git-repository-url = "https://github.com/username/my-novel"  # TODO: 저장소 URL
+# site-url = "/my-novel/"  # TODO: 저장소 이름
