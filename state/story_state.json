@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 16340
+    "total_word_count": 21596
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-04-22",
+    "current_date": "2024-05-09",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -48,6 +48,11 @@
     {"scene_id": "entry_013", "date": "2024-04-15", "title": "걷기가 당연해졌다", "status": "drafted", "word_count": 1023},
     {"scene_id": "entry_014", "date": "2024-04-18", "title": "시간이 아깝지 않아", "status": "drafted", "word_count": 1056},
     {"scene_id": "entry_015", "date": "2024-04-22", "title": "체육 시간", "status": "drafted", "word_count": 1108},
-    {"scene_id": "entry_016", "date": "2024-04-25", "title": "달리고 싶다", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_016", "date": "2024-04-25", "title": "봄비", "status": "drafted", "word_count": 1045},
+    {"scene_id": "entry_017", "date": "2024-04-29", "title": "엄마가 이해하기 시작했다", "status": "drafted", "word_count": 1012},
+    {"scene_id": "entry_018", "date": "2024-05-02", "title": "5월의 아침", "status": "drafted", "word_count": 987},
+    {"scene_id": "entry_019", "date": "2024-05-06", "title": "뛰어봤다", "status": "drafted", "word_count": 1134},
+    {"scene_id": "entry_020", "date": "2024-05-09", "title": "달리기가 이렇게 좋은 거였어?", "status": "drafted", "word_count": 1078},
+    {"scene_id": "entry_021", "date": "2024-05-13", "title": "민서의 말", "status": "planned", "word_count": 0}
   ]
 }
