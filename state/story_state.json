@@ -11,7 +11,7 @@
     "outline": "complete",
     "beat_plan": "complete",
     "draft": "in_progress",
-    "total_word_count": 21596
+    "total_word_count": 26865
   },
   "current": {
     "chapter": 1,
@@ -21,7 +21,7 @@
     "start_date": "2024-03-04",
     "end_date": "2025-03-02",
     "frequency": "twice_weekly",
-    "current_date": "2024-05-09",
+    "current_date": "2024-05-27",
     "days": ["monday", "thursday"],
     "total_entries": 104
   },
@@ -53,6 +53,11 @@
     {"scene_id": "entry_018", "date": "2024-05-02", "title": "5월의 아침", "status": "drafted", "word_count": 987},
     {"scene_id": "entry_019", "date": "2024-05-06", "title": "뛰어봤다", "status": "drafted", "word_count": 1134},
     {"scene_id": "entry_020", "date": "2024-05-09", "title": "달리기가 이렇게 좋은 거였어?", "status": "drafted", "word_count": 1078},
-    {"scene_id": "entry_021", "date": "2024-05-13", "title": "민서의 말", "status": "planned", "word_count": 0}
+    {"scene_id": "entry_021", "date": "2024-05-13", "title": "민서의 말", "status": "drafted", "word_count": 1034},
+    {"scene_id": "entry_022", "date": "2024-05-16", "title": "달려서 등교", "status": "drafted", "word_count": 1089},
+    {"scene_id": "entry_023", "date": "2024-05-20", "title": "실패", "status": "drafted", "word_count": 1023},
+    {"scene_id": "entry_024", "date": "2024-05-23", "title": "운동화가 불편해", "status": "drafted", "word_count": 1056},
+    {"scene_id": "entry_025", "date": "2024-05-27", "title": "할아버지의 응원", "status": "drafted", "word_count": 1067},
+    {"scene_id": "entry_026", "date": "2024-06-03", "title": "러닝화", "status": "planned", "word_count": 0}
   ]
 }
