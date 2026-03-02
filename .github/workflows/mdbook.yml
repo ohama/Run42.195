@@ -20,11 +20,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Strip YAML frontmatter from scenes
+      - name: Strip YAML frontmatter from Korean scenes
         run: |
           for file in draft/scenes/*.md; do
             if [ -f "$file" ]; then
-              # Remove YAML frontmatter (between first --- and second ---)
+              awk 'BEGIN{skip=0} /^---$/{if(skip==0){skip=1;next}else if(skip==1){skip=2;next}} skip!=1{print}' "$file" > tmp && mv tmp "$file"
+            fi
+          done
+
+      - name: Strip YAML frontmatter from English scenes
+        run: |
+          for file in translation/en/scenes/*.md; do
+            if [ -f "$file" ]; then
               awk 'BEGIN{skip=0} /^---$/{if(skip==0){skip=1;next}else if(skip==1){skip=2;next}} skip!=1{print}' "$file" > tmp && mv tmp "$file"
             fi
           done
@@ -34,8 +41,104 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - name: Build mdBook
+      - name: Build Korean Book
         run: mdbook build
+
+      - name: Build English Book
+        run: mdbook build book-en.toml
+
+      - name: Build Study Guide
+        run: mdbook build book-study.toml
+
+      - name: Create Landing Page
+        run: |
+          cat > docs/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="ko">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>제주 소년의 마라톤 도전기 | A Jeju Boy's Marathon Journey</title>
+            <style>
+              * { box-sizing: border-box; margin: 0; padding: 0; }
+              body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+              }
+              .container { max-width: 900px; width: 100%; }
+              .header { text-align: center; color: white; margin-bottom: 40px; }
+              .header h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+              .header p { font-size: 1.2rem; opacity: 0.9; }
+              .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+              .card {
+                background: white; border-radius: 16px; padding: 30px;
+                text-decoration: none; color: inherit;
+                transition: transform 0.3s, box-shadow 0.3s;
+                box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+              }
+              .card:hover { transform: translateY(-5px); box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+              .card-icon { font-size: 3rem; margin-bottom: 15px; }
+              .card h2 { font-size: 1.4rem; margin-bottom: 10px; color: #333; }
+              .card p { color: #666; line-height: 1.6; font-size: 0.95rem; }
+              .card-ko { border-top: 4px solid #3498db; }
+              .card-en { border-top: 4px solid #e74c3c; }
+              .card-study { border-top: 4px solid #2ecc71; }
+              .footer { text-align: center; color: white; margin-top: 40px; opacity: 0.8; font-size: 0.9rem; }
+              .footer a { color: white; }
+              .badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; margin-top: 15px; }
+              .badge-ko { background: #e8f4fc; color: #3498db; }
+              .badge-en { background: #fdeaea; color: #e74c3c; }
+              .badge-study { background: #e8f8f0; color: #2ecc71; }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              <div class="header">
+                <h1>제주 소년의 마라톤 도전기</h1>
+                <p>A Jeju Boy's Marathon Journey</p>
+              </div>
+              <div class="cards">
+                <a href="./ko/" class="card card-ko">
+                  <div class="card-icon">📖</div>
+                  <h2>한국어 원작</h2>
+                  <p>버스 멀미하던 중학생이 마라톤 풀코스를 완주하기까지, 1년간의 성장 일기.</p>
+                  <span class="badge badge-ko">104편 완결</span>
+                </a>
+                <a href="./en/" class="card card-en">
+                  <div class="card-icon">🌏</div>
+                  <h2>English Translation</h2>
+                  <p>A motion-sick middle schooler transforms into a marathon finisher. One year of growth in diary format.</p>
+                  <span class="badge badge-en">101/104 Translated</span>
+                </a>
+                <a href="./study/" class="card card-study">
+                  <div class="card-icon">📚</div>
+                  <h2>English Study Guide</h2>
+                  <p>영어 회화 학습 가이드. 일상 표현, 구동사, 회화 패턴을 소설과 함께 배워보세요.</p>
+                  <span class="badge badge-study">101 Guides</span>
+                </a>
+              </div>
+              <div class="footer">
+                <p>Created with Claude | <a href="https://github.com/ohama/Run42.195">GitHub</a></p>
+              </div>
+            </div>
+          </body>
+          </html>
+          EOF
+
+      - name: Move Korean book to subdirectory
+        run: |
+          mkdir -p docs/ko
+          for item in docs/*; do
+            base=$(basename "$item")
+            if [ "$base" != "ko" ] && [ "$base" != "en" ] && [ "$base" != "study" ] && [ "$base" != "index.html" ]; then
+              mv "$item" docs/ko/
+            fi
+          done
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

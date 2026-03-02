@@ -1,0 +1,15 @@
+[book]
+title = "English Study Guide - A Jeju Boy's Marathon Journey"
+authors = ["ohama"]
+description = "Comprehensive English conversation study guides for Korean learners"
+language = "en"
+src = "src-study"
+
+[build]
+build-dir = "docs/study"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/ohama/Run42.195"
+site-url = "/Run42.195/study/"

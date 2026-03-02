@@ -1,0 +1,15 @@
+[book]
+title = "A Jeju Boy's Marathon Journey"
+authors = ["ohama"]
+description = "A year-long diary of a motion-sick middle schooler who completes a full marathon"
+language = "en"
+src = "src-en"
+
+[build]
+build-dir = "docs/en"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/ohama/Run42.195"
+site-url = "/Run42.195/en/"
