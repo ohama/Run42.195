@@ -8,6 +8,28 @@
 - [English Translation](https://ohama.github.io/Run42.195/en/) - 104/104 entries
 - [English Study Guide](https://ohama.github.io/Run42.195/study/) - 영어 회화 학습 가이드
 
+## 영어 학습 자료
+
+이 소설을 활용한 영어 학습 자료:
+
+| 자료 | 설명 | 파일 |
+|------|------|------|
+| **Study Guide** | 각 에피소드별 회화 학습 가이드 (104편) | `study/en/` |
+| **Grammar in Use** | 문법 학습 자료 (145 유닛) | `grammar_in_use/` |
+
+### Grammar in Use
+
+"English Grammar in Use" (Raymond Murphy) 교재 구조에 맞춘 문법 학습 자료입니다.
+소설 속 예문으로 영어 문법을 배울 수 있습니다.
+
+- Present/Past/Future 시제
+- 조동사 (can, could, must, should...)
+- 조건문과 가정법
+- 수동태, 간접화법
+- 관사, 명사, 대명사
+- 관계절, 형용사, 부사
+- 전치사, 구동사
+
 ## 소개
 
 제주도에 사는 중학교 1학년 김도윤. 매일 만원 버스에서 멀미와 싸우던 그가 우연히 걸어서 등교하게 되면서 시작되는 이야기. 걷기에서 달리기로, 달리기에서 마라톤으로. 1년 동안 104편의 일기를 통해 소년의 변화를 따라갑니다.
