@@ -13,3 +13,5 @@ default-theme = "light"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/ohama/Run42.195"
 site-url = "/Run42.195/study/"
+additional-css = ["../theme/top-nav.css"]
+additional-js = ["../theme/top-nav.js"]
