@@ -9,6 +9,7 @@
 - [Entry 3: I Missed the Bus](guides/entry_003_analysis.md)
 - [Entry 4: The Day I Walked](guides/entry_004_analysis.md)
 - [Entry 5: I Walked on Purpose](guides/entry_005_analysis.md)
+- [Entry 6: Grandfather](guides/entry_006_analysis.md)
 - [Entry 7: A Rainy Day](guides/entry_007_analysis.md)
 - [Entry 8: Mom's Worry](guides/entry_008_analysis.md)
 
@@ -90,6 +91,7 @@
 - [Entry 64: Tangerine Harvest](guides/entry_064_analysis.md)
 - [Entry 65: The 15km Challenge](guides/entry_065_analysis.md)
 - [Entry 66: The Leaves Are Changing](guides/entry_066_analysis.md)
+- [Entry 67: Signing Up for the Half Marathon](guides/entry_067_analysis.md)
 - [Entry 68: The 17km Long Run](guides/entry_068_analysis.md)
 
 # November - Half Marathon
@@ -118,6 +120,7 @@
 # January - Full Marathon Prep
 
 - [Entry 86: My First Run of the New Year](guides/entry_086_analysis.md)
+- [Entry 87: Tenth Grade Is Coming](guides/entry_087_analysis.md)
 - [Entry 88: The 25km Challenge](guides/entry_088_analysis.md)
 - [Entry 89: First Day of Tenth Grade](guides/entry_089_analysis.md)
 - [Entry 90: Recovery is Training Too](guides/entry_090_analysis.md)

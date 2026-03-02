@@ -113,13 +113,13 @@ jobs:
                   <div class="card-icon">🌏</div>
                   <h2>English Translation</h2>
                   <p>A motion-sick middle schooler transforms into a marathon finisher. One year of growth in diary format.</p>
-                  <span class="badge badge-en">101/104 Translated</span>
+                  <span class="badge badge-en">104/104 Complete</span>
                 </a>
                 <a href="./study/" class="card card-study">
                   <div class="card-icon">📚</div>
                   <h2>English Study Guide</h2>
                   <p>영어 회화 학습 가이드. 일상 표현, 구동사, 회화 패턴을 소설과 함께 배워보세요.</p>
-                  <span class="badge badge-study">101 Guides</span>
+                  <span class="badge badge-study">104 Guides</span>
                 </a>
               </div>
               <div class="footer">

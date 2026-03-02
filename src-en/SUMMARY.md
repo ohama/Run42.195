@@ -9,6 +9,7 @@
 - [Entry 3: I Missed the Bus](scenes/entry_003.md)
 - [Entry 4: The Day I Walked](scenes/entry_004.md)
 - [Entry 5: I Walked on Purpose](scenes/entry_005.md)
+- [Entry 6: Grandfather](scenes/entry_006.md)
 - [Entry 7: A Rainy Day](scenes/entry_007.md)
 - [Entry 8: Mom's Worry](scenes/entry_008.md)
 
@@ -90,6 +91,7 @@
 - [Entry 64: Tangerine Harvest](scenes/entry_064.md)
 - [Entry 65: The 15km Challenge](scenes/entry_065.md)
 - [Entry 66: The Leaves Are Changing](scenes/entry_066.md)
+- [Entry 67: Signing Up for the Half Marathon](scenes/entry_067.md)
 - [Entry 68: The 17km Long Run](scenes/entry_068.md)
 
 # November - Half Marathon
@@ -118,6 +120,7 @@
 # January - Full Marathon Prep
 
 - [Entry 86: My First Run of the New Year](scenes/entry_086.md)
+- [Entry 87: Tenth Grade Is Coming](scenes/entry_087.md)
 - [Entry 88: The 25km Challenge](scenes/entry_088.md)
 - [Entry 89: First Day of Tenth Grade](scenes/entry_089.md)
 - [Entry 90: Recovery is Training Too](scenes/entry_090.md)
