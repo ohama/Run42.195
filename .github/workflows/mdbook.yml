@@ -76,6 +76,12 @@ jobs:
         with:
           mdbook-version: 'latest'
 
+      - name: Copy theme files to each book directory
+        run: |
+          mkdir -p book-en/theme book-study/theme
+          cp theme/top-nav.css theme/top-nav.js book-en/theme/
+          cp theme/top-nav.css theme/top-nav.js book-study/theme/
+
       - name: Build Korean Book
         run: mdbook build
 
