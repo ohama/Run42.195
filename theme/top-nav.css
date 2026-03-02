@@ -16,12 +16,11 @@
 .nav-home {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 8px 16px;
-    margin: 0 auto;
+    justify-content: center;
+    padding: 8px 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white !important;
-    text-decoration: none;
+    text-decoration: none !important;
     border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
@@ -29,14 +28,40 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    top: 50%;
+    margin-top: -16px;
+    z-index: 10;
 }
 
 .nav-home:hover {
     transform: translateX(-50%) scale(1.05);
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .nav-wrapper {
     position: relative;
+    min-height: 40px;
+}
+
+/* Wide nav home link (desktop) */
+.nav-wide-wrapper {
+    position: relative;
+}
+
+.nav-home-wide {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+    margin-top: 0;
+    padding: 10px 24px;
+    font-size: 15px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.nav-home-wide:hover {
+    transform: translateX(-50%) scale(1.08);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
 }

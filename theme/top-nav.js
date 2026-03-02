@@ -1,6 +1,6 @@
 // Add prev/next navigation to the top of the page and home link
 document.addEventListener('DOMContentLoaded', function() {
-    // Find the existing nav-wrapper at the bottom
+    // Find the existing nav-wrapper at the bottom (mobile nav)
     var bottomNav = document.querySelector('.nav-wrapper');
 
     if (bottomNav) {
@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
             main.insertBefore(topNav, main.firstChild);
         }
     }
+
+    // Also add home link to wide nav (desktop)
+    var wideNav = document.querySelector('.nav-wide-wrapper');
+    if (wideNav) {
+        addHomeLinkWide(wideNav);
+    }
 });
 
 function addHomeLink(navWrapper) {
@@ -26,20 +32,24 @@ function addHomeLink(navWrapper) {
     var homeLink = document.createElement('a');
     homeLink.href = '/Run42.195/';
     homeLink.className = 'nav-home';
-    homeLink.innerHTML = '<i class="fa fa-home"></i> Home';
+    homeLink.innerHTML = 'Home';
 
-    // Insert home link at the center of nav
-    var navChapters = navWrapper.querySelector('.nav-chapters');
-    if (navChapters) {
-        // Find the spacer or create insertion point
-        var rightNav = navWrapper.querySelector('.right-buttons, .nav-wide-wrapper .right');
-        if (rightNav) {
-            navChapters.insertBefore(homeLink, rightNav);
-        } else {
-            navChapters.appendChild(homeLink);
-        }
+    // Find the clear div and insert before it
+    var clearDiv = navWrapper.querySelector('div[style*="clear"]');
+    if (clearDiv) {
+        navWrapper.insertBefore(homeLink, clearDiv);
     } else {
-        // Fallback: insert as first child
-        navWrapper.insertBefore(homeLink, navWrapper.firstChild);
+        navWrapper.appendChild(homeLink);
     }
+}
+
+function addHomeLinkWide(navWrapper) {
+    // Create home link element for wide nav
+    var homeLink = document.createElement('a');
+    homeLink.href = '/Run42.195/';
+    homeLink.className = 'nav-home nav-home-wide';
+    homeLink.innerHTML = 'Home';
+
+    // Insert at the center
+    navWrapper.appendChild(homeLink);
 }
