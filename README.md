@@ -2,6 +2,12 @@
 
 14살 소년이 버스 멀미로 시작해 풀 마라톤을 완주하기까지, 1년간의 성장 일기.
 
+## 온라인으로 읽기
+
+- [한국어 원작](https://ohama.github.io/Run42.195/ko/) - 104편 완결
+- [English Translation](https://ohama.github.io/Run42.195/en/) - 101/104 entries
+- [English Study Guide](https://ohama.github.io/Run42.195/study/) - 영어 회화 학습 가이드
+
 ## 소개
 
 제주도에 사는 중학교 1학년 김도윤. 매일 만원 버스에서 멀미와 싸우던 그가 우연히 걸어서 등교하게 되면서 시작되는 이야기. 걷기에서 달리기로, 달리기에서 마라톤으로. 1년 동안 104편의 일기를 통해 소년의 변화를 따라갑니다.
