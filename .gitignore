@@ -8,6 +8,7 @@ draft/versions/
 
 # Compiled outputs (regeneratable)
 draft/compiled/
+docs/
 
 # OS files
 .DS_Store
