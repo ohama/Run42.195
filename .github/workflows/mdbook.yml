@@ -45,10 +45,10 @@ jobs:
         run: mdbook build
 
       - name: Build English Book
-        run: mdbook build book-en.toml
+        run: mdbook build book-en
 
       - name: Build Study Guide
-        run: mdbook build book-study.toml
+        run: mdbook build book-study
 
       - name: Create Landing Page
         run: |

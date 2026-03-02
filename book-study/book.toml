@@ -3,10 +3,10 @@ title = "English Study Guide - A Jeju Boy's Marathon Journey"
 authors = ["ohama"]
 description = "Comprehensive English conversation study guides for Korean learners"
 language = "en"
-src = "src-study"
+src = "../src-study"
 
 [build]
-build-dir = "docs/study"
+build-dir = "../docs/study"
 
 [output.html]
 default-theme = "light"
