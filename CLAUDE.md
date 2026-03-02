@@ -141,6 +141,50 @@ study/en/entry_002_analysis.md
 
 See `TRANSLATION_PLAN.md` for detailed status.
 
+## Grammar in Use (문법 학습 자료)
+
+"English Grammar in Use" (Raymond Murphy) 구조에 맞춘 문법 학습 자료.
+소설의 예문으로 각 문법 포인트를 학습합니다.
+
+### File Structure
+
+```
+grammar_in_use/
+├── README.md              # 전체 유닛 목차
+└── units/
+    ├── unit_001.md        # Present continuous
+    ├── unit_002.md        # Present simple
+    └── ... (총 145개 유닛)
+```
+
+### Sections (145 Units)
+
+| Section | Units | Topic |
+|---------|-------|-------|
+| Present and Past | 1-18 | 현재/과거 시제 |
+| Future | 19-25 | 미래 표현 |
+| Modals | 26-37 | 조동사 |
+| Conditionals and Wish | 38-41 | 조건문, wish |
+| Passive | 42-46 | 수동태 |
+| Reported Speech | 47-48 | 간접화법 |
+| Questions | 49-52 | 의문문 |
+| -ing and Infinitive | 53-68 | 동명사/부정사 |
+| Articles and Nouns | 69-80 | 관사/명사 |
+| Pronouns and Determiners | 81-91 | 대명사/한정사 |
+| Relative Clauses | 92-97 | 관계절 |
+| Adjectives and Adverbs | 98-112 | 형용사/부사 |
+| Conjunctions and Prepositions | 113-136 | 접속사/전치사 |
+| Phrasal Verbs | 137-145 | 구동사 |
+
+### Unit Structure
+
+각 유닛 파일 구성:
+1. **문법 설명** - 핵심 문법 포인트
+2. **소설 속 예문** - 영어 + 한국어 번역
+3. **비교/대조** - 유사 문법과의 차이
+4. **연습 문제** - 빈칸 채우기, 문장 변환
+5. **암기 문장** - Key Sentences
+
 ## Commands
 
 - `/novel:status` - Check project status
