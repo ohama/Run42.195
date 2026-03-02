@@ -6,7 +6,7 @@ day: Monday
 title: P.E. Class
 pov: Kim Doyun
 status: translated
-word_count: 1108
+word_count: 1150
 ---
 
 # Monday, April 22, 2024
@@ -17,11 +17,11 @@ Clear skies. The sun felt warm.
 
 Something amazing happened in P.E. today.
 
-We did the endurance run. Running laps around the track. The teacher said it was for the middle school fitness test.
+We did the endurance run. Running laps around the track. The teacher said it was to prepare for the middle school fitness test.
 
 I hate endurance runs. No, hated.
 
-Ever since elementary school, I was always near the bottom. Out of breath, legs aching, wanting to walk halfway through.
+Ever since elementary school, I was always near the bottom in running. Out of breath, legs aching, wanting to walk halfway through.
 
 I expected the same thing today.
 
@@ -31,13 +31,13 @@ But it was different.
 
 The whistle blew.
 
-I started running. Along with everyone else.
+I started running. Along with the other kids.
 
 First lap was fine. Second lap was fine too.
 
 *Huh?*
 
-By the third lap, I noticed. I wasn't as out of breath as before. My legs didn't hurt as much as before.
+By the third lap, I realized. I wasn't as out of breath as before. My legs didn't hurt as much as before.
 
 Sure, it was hard. But not "I'm going to die" hard. More like "kind of tough" hard.
 
@@ -53,9 +53,9 @@ That thought crossed my mind.
 
 I ended up running six laps.
 
-Kept running until the teacher blew the whistle. Six laps. 1.2 km.
+I kept running until the teacher blew the whistle. Six laps. 1.2 km.
 
-After I stopped, I bent over with my hands on my knees. Out of breath. Sweating.
+After I stopped, I put my hands on my knees. Out of breath. Sweating.
 
 But I didn't feel like I was going to collapse.
 
@@ -73,7 +73,7 @@ Minseo came over.
 
 "What do you mean?"
 
-"You crushed the endurance run. Six whole laps."
+"You killed it in the endurance run. Six whole laps."
 
 "Did I?"
 
@@ -81,23 +81,23 @@ Minseo came over.
 
 Minseo said. Right. In elementary school, I always walked partway through the endurance run.
 
-"But today I didn't walk. Ran the whole thing."
+"But today I didn't walk. I ran the whole thing."
 
-"Yeah, that's what I'm saying..."
+"Exactly..."
 
-I thought it was weird too. Why could I run today?
+I thought it was strange too. Why could I run today?
 
 ---
 
-Thought about it while eating lunch.
+I thought about it while eating lunch.
 
 Did my stamina improve?
 
 Because of walking?
 
-Twice a week, one hour and ten minutes each time. About 7 km per walk. That's 14 km a week.
+I walk twice a week, one hour and ten minutes each time. About 7 km per walk. That's 14 km a week.
 
-Started mid-March, so about a month and a half. Walked more than ten times. Over 70 km total.
+I started in mid-March, so about a month and a half. I've walked more than ten times. Over 70 km total.
 
 70 km.
 
@@ -105,7 +105,7 @@ When I see the number, it's actually a lot.
 
 *Is that why my stamina improved?*
 
-Not sure. But nothing else has changed. I still hate exercise, and I don't move except during P.E.
+I don't know. But nothing else has changed. I still hate exercise, and I don't move except during P.E.
 
 Just walking.
 
@@ -113,7 +113,7 @@ It must be the walking.
 
 ---
 
-Thought about it on the bus home.
+I thought about it on the bus ride home.
 
 Walking built my stamina.
 
@@ -123,7 +123,7 @@ And waking up in the morning is easier too. I used to dread opening my eyes, but
 
 Is it all because of walking?
 
-Can't say for sure. But I think so.
+I'm not certain. But I think so.
 
 ---
 
@@ -137,7 +137,7 @@ Mom looked surprised. She knows I'm bad at sports.
 
 "Yeah. I ran six laps. Without walking."
 
-"Wow, really? That's great."
+"Wow, really? Good job."
 
 "I think it's because of walking."
 
@@ -159,7 +159,7 @@ Mom said "keep it up." The same mom who was worried at first.
 
 ---
 
-Writing in my diary now.
+I'm writing in my diary now.
 
 I did well in the endurance run during P.E. today.
 
@@ -181,7 +181,7 @@ I thought I hated exercise. But I like walking.
 
 If walking is exercise, does that mean I like exercise?
 
-Not sure.
+I don't know.
 
 But hey, it's a good thing.
 
