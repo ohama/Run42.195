@@ -78,9 +78,15 @@ jobs:
 
       - name: Copy theme files to each book directory
         run: |
-          mkdir -p book-en/theme book-study/theme
+          mkdir -p book-en/theme book-study/theme book-grammar/theme
           cp theme/top-nav.css theme/top-nav.js book-en/theme/
           cp theme/top-nav.css theme/top-nav.js book-study/theme/
+          cp theme/top-nav.css theme/top-nav.js book-grammar/theme/
+
+      - name: Setup grammar units for mdBook
+        run: |
+          mkdir -p src-grammar/units
+          cp grammar_in_use/units/*.md src-grammar/units/
 
       - name: Build Korean Book
         run: mdbook build
@@ -91,12 +97,15 @@ jobs:
       - name: Build Study Guide
         run: mdbook build book-study
 
+      - name: Build Grammar Guide
+        run: mdbook build book-grammar
+
       - name: Move Korean book to subdirectory
         run: |
           mkdir -p docs/ko
           for item in docs/*; do
             base=$(basename "$item")
-            if [ "$base" != "ko" ] && [ "$base" != "en" ] && [ "$base" != "study" ]; then
+            if [ "$base" != "ko" ] && [ "$base" != "en" ] && [ "$base" != "study" ] && [ "$base" != "grammar" ]; then
               mv "$item" docs/ko/
             fi
           done
@@ -139,12 +148,14 @@ jobs:
               .card-ko { border-top: 4px solid #3498db; }
               .card-en { border-top: 4px solid #e74c3c; }
               .card-study { border-top: 4px solid #2ecc71; }
+              .card-grammar { border-top: 4px solid #9b59b6; }
               .footer { text-align: center; color: white; margin-top: 40px; opacity: 0.8; font-size: 0.9rem; }
               .footer a { color: white; }
               .badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; margin-top: 15px; }
               .badge-ko { background: #e8f4fc; color: #3498db; }
               .badge-en { background: #fdeaea; color: #e74c3c; }
               .badge-study { background: #e8f8f0; color: #2ecc71; }
+              .badge-grammar { background: #f3e8fc; color: #9b59b6; }
             </style>
           </head>
           <body>
@@ -171,6 +182,12 @@ jobs:
                   <h2>English Study Guide</h2>
                   <p>영어 회화 학습 가이드. 일상 표현, 구동사, 회화 패턴을 소설과 함께 배워보세요.</p>
                   <span class="badge badge-study">104 Guides</span>
+                </a>
+                <a href="./grammar/" class="card card-grammar">
+                  <div class="card-icon">📗</div>
+                  <h2>Grammar in Use</h2>
+                  <p>영어 문법 학습 가이드. Raymond Murphy의 Grammar in Use 구조로 소설 예문과 함께 배워보세요.</p>
+                  <span class="badge badge-grammar">145 Units</span>
                 </a>
               </div>
               <div class="footer">
