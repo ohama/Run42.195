@@ -1,37 +1,108 @@
 # Unit 57: Verb + -ing or to... (2) (try, need, help)
 
-## A. try + -ing vs try + to
+## A. try + -ing vs try + to (Form)
 
-| Structure | Meaning |
-|-----------|---------|
-| try + -ing | 시험 삼아 ~해보다 |
-| try + to | ~하려고 노력하다 |
+**try**는 -ing와 to 둘 다 쓸 수 있지만, 의미가 다릅니다.
+
+| Structure | Meaning | Nuance |
+|-----------|---------|--------|
+| try + -ing | 시험 삼아 ~해보다 | 실험적, 결과를 보려고 |
+| try + to | ~하려고 노력하다 | 어렵지만 시도함 |
+
+### From the Original Book:
+
+> "I tried **taking** aspirin, but it didn't help."
+> 아스피린을 먹어봤는데, 도움이 안 됐어.
+
+> "I tried **to move** the piano, but it was too heavy."
+> 피아노를 옮기려고 했는데, 너무 무거웠어.
+
+### Visual Understanding:
+
+```
+try + -ing:   "이거 해볼까?" → [실험] → 결과 확인
+              (실험적 시도)
+
+try + to:     "해야 하는데..." → [노력] → 성공/실패
+              (어려운 시도)
+```
+
+---
+
+## B. try + -ing 상세 설명 (Primary Usage)
+
+**시험 삼아 해보다** - 결과를 보기 위해 실험적으로 시도할 때
 
 ### Examples from the Novel:
 
 > **"I tried running slowly at first."**
 > 처음에는 시험 삼아 천천히 달려봤다.
 
-- **try + -ing**: 실험적으로 해봄 (결과를 보기 위해)
-
-> **"I tried to run faster, but I couldn't."**
-> 더 빨리 달리려고 했지만, 못했다.
-
-- **try + to**: 노력했지만 어려움 (성공 여부 불확실)
+- 천천히 달리면 어떤지 실험해봄
 
 > **"Try eating peppermint. They say it helps with motion sickness."**
 > 박하 사탕 먹어봐. 멀미에 좋대.
 
-- **try + -ing**: 실험 삼아 해보라는 제안
+- 실험 삼아 해보라는 제안
+
+> **"Motion sickness? Try getting closer to the window."**
+> 멀미? 창가 쪽으로 가봐.
+
+- 해결책으로 시도해보라는 제안
+
+### Common Patterns:
+
+| Pattern | Example |
+|---------|---------|
+| Try + -ing | Try **running** in the morning. |
+| Why don't you try + -ing | Why don't you try **walking** first? |
+| Have you tried + -ing | Have you tried **stretching** before? |
 
 ---
 
-## B. need + -ing vs need + to
+## C. try + to 상세 설명 (Effort Despite Difficulty)
 
-| Structure | Meaning |
-|-----------|---------|
-| need + -ing | ~될 필요가 있다 (수동) |
-| need + to | ~할 필요가 있다 (능동) |
+**~하려고 노력하다** - 어렵지만 시도할 때
+
+### Examples from the Novel:
+
+> **"I tried to run faster, but I couldn't."**
+> 더 빨리 달리려고 했지만, 못했다.
+
+- 노력했지만 어려움 (성공 여부 불확실)
+
+> **"I tried to move toward the window, but people blocked every inch."**
+> 창가 쪽으로 가려고 했지만, 사람들이 꽉 막혀 있었다.
+
+- 노력했지만 실패
+
+> **"I tried to catch the bus, but it left."**
+> 버스를 잡으려고 했지만, 떠났다.
+
+### 성공/실패 여부:
+
+| try + -ing | try + to |
+|------------|----------|
+| 보통 성공 (실험이니까) | 성공 여부 불확실 |
+| Try opening the window. | I tried to open the window. |
+| (열어봐 - 가능) | (열려고 했어 - 어려웠음) |
+
+---
+
+## D. need + -ing vs need + to (Additional Uses)
+
+| Structure | Meaning | Voice |
+|-----------|---------|-------|
+| need + -ing | ~될 필요가 있다 | 수동 (Passive) |
+| need + to | ~할 필요가 있다 | 능동 (Active) |
+
+### From the Original Book:
+
+> "The grass needs **cutting**." (= needs to be cut)
+> 잔디를 깎아야 해.
+
+> "I need **to cut** the grass."
+> 내가 잔디를 깎아야 해.
 
 ### Examples from the Novel:
 
@@ -48,13 +119,26 @@
 > **"The training plan needs adjusting."**
 > 훈련 계획을 조정해야 해.
 
-- **need + -ing** = **need to be + 과거분사**
+### 동일 의미 변환:
+
+| need + -ing | need to be + p.p. |
+|-------------|-------------------|
+| My shoes need **cleaning**. | My shoes need **to be cleaned**. |
+| The plan needs **adjusting**. | The plan needs **to be adjusted**. |
+| This room needs **painting**. | This room needs **to be painted**. |
+| The car needs **fixing**. | The car needs **to be fixed**. |
 
 ---
 
-## C. help + (to) 부정사
+## E. help + (to) 부정사 (Special Pattern)
 
 **help**는 특별한 동사입니다. **to부정사** 또는 **원형부정사(to 없이)** 둘 다 가능합니다.
+
+### From the Original Book:
+
+> "Can you help me **move** this table?"
+> "Can you help me **to move** this table?"
+> 이 테이블 옮기는 것 좀 도와줄래?
 
 ### Examples from the Novel:
 
@@ -68,53 +152,34 @@
 > 달리기가 마음을 정리하는 데 도움이 된다.
 
 - **help + (to) + 동사원형**: ~하는 데 도움이 되다
-- to는 생략 가능
+- to는 생략 가능 (미국식에서 생략 많음)
 
 > **"Minseo helped me train."** (= helped me to train)
 > 민서가 훈련하는 걸 도와줬다.
 
----
+### help의 다양한 패턴:
 
-## D. 비교 정리표
+| Pattern | Example |
+|---------|---------|
+| help (to) do | Running helps (to) clear my mind. |
+| help + 목적어 + (to) do | She helped me (to) train. |
+| help with + 명사 | This will help with your stamina. |
+| can't help + -ing | I can't help feeling nervous. |
 
-| Verb | + -ing | + to |
-|------|--------|------|
-| try | 시험 삼아 ~해보다 | ~하려고 노력하다 |
-| need | ~될 필요가 있다 (수동) | ~할 필요가 있다 (능동) |
-| help | - | ~하는 데 도움이 되다 (to 생략 가능) |
-
----
-
-## E. try 상세 비교
-
-| try + -ing | try + to |
-|------------|----------|
-| 시험 삼아 해봄 | 노력함 (어려움) |
-| 결과를 보려고 | 성공하려고 |
-| "Try taking the bus." | "I tried to catch the bus." |
-| (버스 타보라) | (버스 잡으려고 했다) |
-
-### From the Novel:
-
-> **"Motion sickness? Try getting closer to the window."**
-> 멀미? 창가 쪽으로 가봐.
-
-- 시험 삼아 해보라는 제안
-
-> **"I tried to move toward the window, but people blocked every inch."**
-> 창가 쪽으로 가려고 했지만, 사람들이 꽉 막혀 있었다.
-
-- 노력했지만 어려웠음
+**주의:** "can't help + -ing"는 "~하지 않을 수 없다"의 의미로 완전히 다릅니다!
 
 ---
 
-## F. need + -ing = need to be + p.p.
+## F. 흔한 실수 (Common Mistakes)
 
-| need + -ing | need to be + p.p. |
-|-------------|-------------------|
-| My shoes need cleaning. | My shoes need to be cleaned. |
-| The plan needs adjusting. | The plan needs to be adjusted. |
-| This room needs painting. | This room needs to be painted. |
+| Wrong (X) | Correct (O) | Explanation |
+|-----------|-------------|-------------|
+| ~~Try to eat less sugar.~~ (제안) | **Try eating** less sugar. | 실험적 제안 → -ing |
+| ~~I tried opening the door, but it was locked.~~ (실패) | I **tried to open** the door, but it was locked. | 어려운 시도 → to |
+| ~~My shoes need to clean.~~ | My shoes **need cleaning**. | 수동 의미 → -ing |
+| ~~I need resting.~~ | I **need to rest**. | 내가 해야 함 → to |
+| ~~She helped me studying.~~ | She **helped me study**. | help + 원형부정사 |
+| ~~I can't help to laugh.~~ | I **can't help laughing**. | can't help + -ing |
 
 ---
 
@@ -127,6 +192,9 @@
 3. I need (rest / to rest) after running 10km.
 4. The running shoes need (wash / washing).
 5. Walking helped (improve / to improve) my stamina.
+6. Have you tried (stretch / stretching) before running?
+7. The window needs (fix / to be fixed / fixing).
+8. I can't help (feel / feeling) excited.
 
 **Answers:**
 1. wearing (시험 삼아)
@@ -134,6 +202,9 @@
 3. to rest (내가 ~해야 함)
 4. washing (씻어져야 함 - 수동)
 5. improve / to improve (둘 다 가능)
+6. stretching (시험 삼아)
+7. to be fixed / fixing (둘 다 가능)
+8. feeling (can't help + -ing)
 
 ### B. 문장을 완성하세요.
 
@@ -142,6 +213,9 @@
 3. My legs need _______ (stretch) after the run.
 4. Running helped me _______ (build) my confidence.
 5. The training schedule needs _______ (change).
+6. Have you tried _______ (take) deep breaths?
+7. I need _______ (drink) more water.
+8. She helped me _______ (carry) the equipment.
 
 **Answers:**
 1. running
@@ -149,6 +223,9 @@
 3. stretching
 4. build / to build
 5. changing
+6. taking
+7. to drink
+8. carry / to carry
 
 ### C. 같은 의미로 바꾸세요.
 
@@ -161,10 +238,31 @@
 3. The plan needs to be adjusted.
    → The plan needs _______.
 
+4. She helped me to train.
+   → She helped me _______.
+
+5. The car needs to be fixed.
+   → The car needs _______.
+
 **Answers:**
 1. cleaning
 2. painting
 3. adjusting
+4. train
+5. fixing
+
+### D. 상황에 맞게 try + -ing 또는 try + to를 사용하세요.
+
+1. 멀미가 나요. → _______ (sit) closer to the window. (제안)
+2. 버스를 잡으려고 했지만 놓쳤어요. → I _______ (catch) the bus, but I missed it.
+3. 이 운동을 해봐. 효과가 있을 거야. → _______ (do) this exercise. It might help.
+4. 문을 열려고 했지만 잠겨 있었어요. → I _______ (open) the door, but it was locked.
+
+**Answers:**
+1. Try sitting
+2. tried to catch
+3. Try doing
+4. tried to open
 
 ---
 
@@ -177,7 +275,26 @@
 | I need to rest before the race. | 레이스 전에 쉬어야 해. |
 | My shoes need cleaning. | 신발을 닦아야 해. |
 | Walking helped me build stamina. | 걷기가 체력을 키우는 데 도움이 됐다. |
+| Have you tried stretching before running? | 달리기 전에 스트레칭 해봤어? |
+| I can't help feeling nervous. | 긴장되는 걸 어쩔 수 없어. |
+| She helped me train for the marathon. | 그녀가 마라톤 훈련을 도와줬다. |
+
+---
+
+## Summary: try, need, help 비교
+
+| Verb | + -ing | + to |
+|------|--------|------|
+| **try** | 시험 삼아 ~해보다 | ~하려고 노력하다 |
+| **need** | ~될 필요가 있다 (수동) | ~할 필요가 있다 (능동) |
+| **help** | can't help -ing (어쩔 수 없이) | help (to) do (도움이 되다) |
+
+### Quick Decision:
+- **try**: 실험? → -ing / 어려운 노력? → to
+- **need**: 주어가 행동 받음? → -ing / 주어가 행동함? → to
+- **help**: to 생략 가능!
 
 ---
 
 *Examples from "A Jeju Boy's Marathon Journey" by ohama*
+*Grammar reference: English Grammar in Use (Raymond Murphy)*

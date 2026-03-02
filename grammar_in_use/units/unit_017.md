@@ -1,6 +1,6 @@
 # Unit 17: Have and Have got
 
-## A. 문법 설명 (Grammar Explanation)
+## A. 기본 개념 (Basic Concept)
 
 ### English
 **Have** and **Have got** both express **possession**, but they have different forms and uses:
@@ -22,6 +22,7 @@
 |------|----------|
 | I have a bag. | I've got a bag. |
 | She has a medal. | She's got a medal. |
+| They have time. | They've got time. |
 
 ### 부정문 (Negative)
 
@@ -29,6 +30,7 @@
 |------|----------|
 | I don't have a bag. | I haven't got a bag. |
 | She doesn't have time. | She hasn't got time. |
+| They don't have it. | They haven't got it. |
 
 ### 의문문 (Questions)
 
@@ -36,6 +38,7 @@
 |------|----------|
 | Do you have a bag? | Have you got a bag? |
 | Does she have time? | Has she got time? |
+| Do they have it? | Have they got it? |
 
 ---
 
@@ -83,7 +86,7 @@
 
 ---
 
-## D. Have의 다른 용법 (Have = 행위)
+## D. Have의 다른 용법 (Have = Action)
 
 ### Have = 먹다, 마시다 (Eat/Drink)
 
@@ -98,13 +101,30 @@
 
 ### Have = 경험하다 (Experience)
 
+| Expression | Korean |
+|------------|--------|
+| have a good time | 좋은 시간을 보내다 |
+| have fun | 재미있게 놀다 |
+| have a great day | 좋은 하루를 보내다 |
+| have a problem | 문제가 있다 |
+| have an accident | 사고를 당하다 |
+
 > **"Have a good time!"**
 > 좋은 시간 보내!
 
 > **"I had fun at the race."**
 > 대회에서 재미있었다.
 
-### Have = 샤워, 휴식 등
+### Have = 샤워, 휴식 등 (Actions)
+
+| Expression | Korean |
+|------------|--------|
+| have a shower/bath | 샤워/목욕하다 |
+| have a break/rest | 쉬다 |
+| have a nap | 낮잠 자다 |
+| have a walk | 산책하다 |
+| have a look | 보다 |
+| have a try | 해보다 |
 
 > **"I'll have a shower after running."**
 > 달리고 나서 샤워할 거야.
@@ -118,6 +138,11 @@
 
 ### Have to = ~해야 한다
 
+| Positive | Negative | Question |
+|----------|----------|----------|
+| I have to go. | I don't have to go. | Do you have to go? |
+| She has to work. | She doesn't have to work. | Does she have to work? |
+
 > **"I have to wake up at 6:20."**
 > 6시 20분에 일어나야 한다.
 
@@ -125,6 +150,11 @@
 > 내일은 버스를 타야 한다.
 
 ### Have got to = ~해야 한다 (구어체)
+
+| Have to | Have got to |
+|---------|-------------|
+| I have to go. | I've got to go. |
+| She has to work. | She's got to work. |
 
 > **"I've got to go now."**
 > 지금 가야 해.
@@ -139,21 +169,28 @@
 ## F. Have vs Have got 사용 가이드
 
 ### Have를 주로 쓰는 경우:
-- 과거시제 (had)
-- 미래시제 (will have)
-- have to (의무)
-- 행위 표현 (have breakfast, have fun)
-- 미국 영어
+
+| Situation | Example |
+|-----------|---------|
+| 과거시제 (had) | I had a bag. |
+| 미래시제 (will have) | I will have time. |
+| have to (의무) | I have to go. |
+| 행위 표현 | have breakfast, have fun |
+| 미국 영어 | I have a car. |
+| 공식적 상황 | Do you have any questions? |
 
 ### Have got을 쓰는 경우:
-- 현재 소유
-- 현재 상태
-- 비공식적 대화
-- 영국 영어
+
+| Situation | Example |
+|-----------|---------|
+| 현재 소유 | I've got a car. |
+| 현재 상태 | I've got a headache. |
+| 비공식적 대화 | Have you got time? |
+| 영국 영어 | She's got a new phone. |
 
 ---
 
-## G. 과거형 (Past Tense)
+## G. 과거형과 미래형 (Past and Future)
 
 ### Had (have의 과거형):
 
@@ -165,7 +202,25 @@
 
 **주의:** **Had got**은 잘 사용하지 않습니다.
 - "I had a bag." (O)
-- "I'd got a bag." (드물게 사용)
+- "I'd got a bag." (드물게 사용, 비표준)
+
+### Will have (미래형):
+
+> **"I will have more time next week."**
+> 다음 주에 시간이 더 있을 거야.
+
+---
+
+## H. 흔한 실수 (Common Mistakes)
+
+| Wrong (X) | Correct (O) | Explanation |
+|-----------|-------------|-------------|
+| ~~I've got breakfast every day.~~ | I **have** breakfast every day. | 습관 = have |
+| ~~She has got lunch at noon.~~ | She **has** lunch at noon. | 행위 = have |
+| ~~I'd got a car yesterday.~~ | I **had** a car. | 과거 = had |
+| ~~Have you got breakfast?~~ | **Did you have** breakfast? | 행위 = have |
+| ~~I've got to breakfast.~~ | I **have** breakfast. | have got ≠ 행위 |
+| ~~Does she has a car?~~ | **Does** she **have** a car? | 의문문 어순 |
 
 ---
 
@@ -176,22 +231,19 @@
 Change to the other form:
 
 1. I have a new uniform.
-   → I _______ a new uniform.
+   → I **'ve got** a new uniform.
 
 2. She's got three medals.
-   → She _______ three medals.
+   → She **has** three medals.
 
 3. Do you have time?
-   → _______ you _______ time?
+   → **Have** you **got** time?
 
 4. I haven't got my phone.
-   → I _______ my phone.
+   → I **don't have** my phone.
 
-**Answers:**
-1. 've got
-2. has
-3. Have ... got
-4. don't have
+5. They have a problem.
+   → They **'ve got** a problem.
 
 ### B. 올바른 형태 선택
 
@@ -200,6 +252,9 @@ Change to the other form:
 3. We (have to / 've got to) leave early tomorrow.
 4. Do you (have / got) your race bib?
 5. I (had / 'd got) a great time at the race.
+6. Let's (have / 've got) a break.
+7. I (have / 've got) a headache right now.
+8. She (doesn't have / hasn't got) any money.
 
 **Answers:**
 1. have (breakfast = 행위)
@@ -207,43 +262,44 @@ Change to the other form:
 3. have to 또는 've got to (의무 - 둘 다 가능)
 4. have (Do you have...?)
 5. had (had a great time = 행위)
+6. have (have a break = 행위)
+7. 've got 또는 have (현재 상태)
+8. doesn't have 또는 hasn't got (둘 다 가능)
 
 ### C. 부정문 만들기
 
 Make negative sentences:
 
-1. I have much time. → I _______ much time.
-2. She's got a car. → She _______ a car.
-3. They have their bags. → They _______ their bags.
-4. I've got my phone. → I _______ my phone.
-
-**Answers:**
-1. don't have
-2. hasn't got
-3. don't have
-4. haven't got
+1. I have much time. → I **don't have** much time.
+2. She's got a car. → She **hasn't got** a car.
+3. They have their bags. → They **don't have** their bags.
+4. I've got my phone. → I **haven't got** my phone.
+5. He has a lot of money. → He **doesn't have** a lot of money.
 
 ### D. 의문문 만들기
 
 Make questions:
 
 1. You have a water bottle.
-   → _______ a water bottle?
+   → **Do you have** a water bottle?
 
 2. She's got time.
-   → _______ time?
+   → **Has she got** time?
 
 3. They have their medals.
-   → _______ their medals?
+   → **Do they have** their medals?
 
-**Answers:**
-1. Do you have
-2. Has she got
-3. Do they have
+4. He's got a car.
+   → **Has he got** a car?
+
+5. You have to go now.
+   → **Do you have to** go now?
 
 ---
 
 ## Key Sentences (암기 문장)
+
+### 소유 표현:
 
 | Have | Have got |
 |------|----------|
@@ -262,10 +318,13 @@ Make questions:
 | Have a nice day! | 좋은 하루 보내! |
 | I'll have a shower. | 샤워할 거야. |
 | Let's have a break. | 쉬자. |
+| Have fun! | 재미있게 놀아! |
+| Did you have lunch? | 점심 먹었어? |
+| I had a problem. | 문제가 있었어. |
 
 ---
 
-## 정리표 (Summary)
+## Summary Table
 
 | 의미 | Have | Have got | 둘 다? |
 |------|------|----------|--------|
@@ -274,8 +333,10 @@ Make questions:
 | 소유 질문 | Do you have...? | Have you got...? | O |
 | 의무 | I have to go. | I've got to go. | O |
 | 행위 | I have breakfast. | ~~I've got breakfast.~~ | X (have만) |
-| 과거 | I had a bag. | (드물게 사용) | (have만) |
+| 과거 | I had a bag. | (드물게 사용) | X (have만) |
+| 미래 | I will have... | - | X (have만) |
 
 ---
 
 *Examples from "A Jeju Boy's Marathon Journey" by ohama*
+*Grammar reference: English Grammar in Use (Raymond Murphy)*

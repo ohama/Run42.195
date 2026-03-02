@@ -1,6 +1,6 @@
 # Unit 11: How long have you (been)...?
 
-## A. 문법 설명 (Grammar Explanation)
+## A. 기본 개념 (Basic Concept)
 
 ### English
 To ask about **duration** (how long something has been happening), we use:
@@ -21,20 +21,48 @@ Both ask about the time from the past until now.
 ## B. 기본 구조 (Basic Structures)
 
 ### Present Perfect Simple:
-> **"How long have you lived in Jeju?"**
-> 제주에서 얼마나 오래 살았어?
+
+| Question | Answer |
+|----------|--------|
+| How long have you **lived** in Jeju? | I've lived here for 14 years. |
+| How long have you **known** him? | I've known him since school. |
 
 ### Present Perfect Continuous:
-> **"How long have you been running?"**
-> 얼마나 오래 달려왔어?
 
-### 대답 방식:
-- **For + 기간:** for three months, for a year
-- **Since + 시점:** since March, since I started school
+| Question | Answer |
+|----------|--------|
+| How long have you **been running**? | I've been running for 6 months. |
+| How long have you **been waiting**? | I've been waiting since 8 o'clock. |
+
+### 대답 방식 (Answering):
+
+| Type | Structure | Example |
+|------|-----------|---------|
+| For + 기간 | for + period | for three months, for a year, for ages |
+| Since + 시점 | since + point | since March, since I started school |
 
 ---
 
-## C. 소설 속 예문 (Examples from the Novel)
+## C. 언제 어떤 형태를 쓸까? (Which Form to Use)
+
+### From the Original Book:
+> "**How long have you been learning** English?"
+> 얼마나 오래 영어를 배우고 있어?
+
+> "**How long have you known** Jane?"
+> 제인을 얼마나 오래 알았어?
+
+### General Guidelines:
+
+| Use | Form | Example |
+|-----|------|---------|
+| Actions (활동) | Continuous | How long have you been running? |
+| States (상태) | Simple | How long have you known him? |
+| Live/Work | Both OK | How long have you been living/lived here? |
+
+---
+
+## D. 소설 속 예문 (Examples from the Novel)
 
 ### Example 1: 달리기 기간
 
@@ -42,11 +70,9 @@ Both ask about the time from the past until now.
 > **"How long have you been running?"**
 > 얼마나 오래 달려왔어?
 
-**Answer:**
+**Answers:**
 > **"I've been running since March."**
 > 3월부터 달려왔어.
-
-or
 
 > **"I've been running for six months."**
 > 6개월 동안 달려왔어.
@@ -71,7 +97,7 @@ or
 > **"For about a year."**
 > 약 1년 됐어.
 
-### Example 4: 상태의 기간
+### Example 4: 상태의 기간 (상태동사 → Simple)
 
 **Question:**
 > **"How long have you known Minseo?"**
@@ -89,7 +115,7 @@ or
 
 ---
 
-## D. For vs Since
+## E. For vs Since 상세 비교
 
 | For | Since |
 |-----|-------|
@@ -98,8 +124,9 @@ or
 | **for** a year | **since** last year |
 | **for** two hours | **since** 8 o'clock |
 | **for** a long time | **since** I was young |
+| **for** ages | **since** the beginning |
 
-### 소설 속 예문:
+### Examples from the Novel:
 
 > **"I've been running for six months."** (기간)
 > 6개월 동안 달려왔어.
@@ -109,7 +136,7 @@ or
 
 ---
 
-## E. 대화 패턴 (Conversation Patterns)
+## F. 대화 패턴 (Conversation Patterns)
 
 ### Pattern 1: How long + have been -ing?
 
@@ -141,23 +168,45 @@ Teacher: "So it's been three months."
 
 ---
 
-## F. 시간 표현 총정리
+## G. 시간 표현 총정리 (Time Expression Summary)
 
 ### For + 기간:
-- for a few days (며칠)
-- for two weeks (2주)
-- for three months (3개월)
-- for a year (1년)
-- for a long time (오랫동안)
-- for ages (아주 오랫동안)
+
+| Expression | Korean |
+|------------|--------|
+| for a few days | 며칠 동안 |
+| for two weeks | 2주 동안 |
+| for three months | 3개월 동안 |
+| for a year | 1년 동안 |
+| for a long time | 오랫동안 |
+| for ages | 아주 오랫동안 |
+| for hours | 몇 시간 동안 |
 
 ### Since + 시점:
-- since yesterday (어제부터)
-- since last week (지난주부터)
-- since March (3월부터)
-- since 2024 (2024년부터)
-- since I was young (어렸을 때부터)
-- since I started school (학교 다니기 시작한 이후로)
+
+| Expression | Korean |
+|------------|--------|
+| since yesterday | 어제부터 |
+| since last week | 지난주부터 |
+| since March | 3월부터 |
+| since 2024 | 2024년부터 |
+| since I was young | 어렸을 때부터 |
+| since I started school | 학교 다니기 시작한 이후로 |
+| since 8 o'clock | 8시부터 |
+| since this morning | 오늘 아침부터 |
+
+---
+
+## H. 흔한 실수 (Common Mistakes)
+
+| Wrong (X) | Correct (O) | Explanation |
+|-----------|-------------|-------------|
+| ~~How long are you running?~~ | **How long have you been running?** | 현재완료진행형 필요 |
+| ~~Since three months~~ | **For** three months | 기간 = for |
+| ~~For March~~ | **Since** March | 시점 = since |
+| ~~How long you have been waiting?~~ | **How long have you been waiting?** | 어순 |
+| ~~I've been knowing him for years.~~ | I've **known** him for years. | know = 상태동사 |
+| ~~I know him since 2020.~~ | I've **known** him since 2020. | since = 현재완료 |
 
 ---
 
@@ -170,6 +219,9 @@ Teacher: "So it's been three months."
 3. She's lived here _______ 2020.
 4. He's known her _______ a long time.
 5. I've been waiting _______ 8 o'clock.
+6. They've been friends _______ ages.
+7. I've been learning English _______ I was ten.
+8. He's been working here _______ two years.
 
 **Answers:**
 1. since (시점)
@@ -177,21 +229,28 @@ Teacher: "So it's been three months."
 3. since (시점)
 4. for (기간)
 5. since (시점)
+6. for (기간)
+7. since (시점 - 절)
+8. for (기간)
 
 ### B. 질문 만들기
 
 Make "How long" questions:
 
-1. I've been running. → How long _______?
-2. She's lived in Jeju. → How long _______?
-3. They've been waiting. → How long _______?
-4. He's known about the race. → How long _______?
+1. I've been running.
+   → How long **have you been running**?
 
-**Answers:**
-1. have you been running
-2. has she lived in Jeju
-3. have they been waiting
-4. has he known about the race
+2. She's lived in Jeju.
+   → How long **has she lived in Jeju**?
+
+3. They've been waiting.
+   → How long **have they been waiting**?
+
+4. He's known about the race.
+   → How long **has he known about the race**?
+
+5. You've been studying.
+   → How long **have you been studying**?
 
 ### C. 대화 완성하기
 
@@ -206,28 +265,34 @@ Complete the conversations:
 3. A: _______ have you been training?
    B: Since I decided to run the marathon.
 
+4. A: How long has it been raining?
+   B: _______ this morning. (시점)
+
+5. A: How long have they been friends?
+   B: _______ elementary school. (시점)
+
 **Answers:**
 1. Since
 2. For
 3. How long
+4. Since
+5. Since
 
 ### D. 문장 변환
 
 Change from "for" to "since" (or vice versa):
 
 1. I've been running for six months.
-   → I've been running _______ March. (if it's now September)
+   → I've been running **since March**. (if it's now September)
 
 2. She's lived here since 2020.
-   → She's lived here _______ four years. (if it's now 2024)
+   → She's lived here **for four years**. (if it's now 2024)
 
 3. I've known him for a year.
-   → I've known him _______ last year.
+   → I've known him **since last year**.
 
-**Answers:**
-1. since March
-2. for four years
-3. since last year
+4. He's been working since 9 AM.
+   → He's been working **for 3 hours**. (if it's now noon)
 
 ---
 
@@ -240,18 +305,27 @@ Change from "for" to "since" (or vice versa):
 | How long have you known Minseo? | Since the first day. | For a year. |
 | How long has it been raining? | Since morning. | For two hours. |
 | How long have you lived in Jeju? | Since I was born. | For 14 years. |
+| How long have you been waiting? | Since 8 o'clock. | For an hour. |
+| How long has she been learning English? | Since childhood. | For ten years. |
+| How long have they been dating? | Since last summer. | For about a year. |
 
 ---
 
-## 주의사항 (Common Mistakes)
+## Summary: How Long Questions
 
-| Wrong | Correct |
-|-------|---------|
-| ~~How long are you running?~~ | How long have you been running? |
-| ~~Since three months~~ | For three months |
-| ~~For March~~ | Since March |
-| ~~How long you have been waiting?~~ | How long have you been waiting? |
+| Type | Question Form | Example |
+|------|---------------|---------|
+| Activity | How long + have been + -ing? | How long have you been running? |
+| State | How long + have + p.p.? | How long have you known him? |
+| Live/Work | Both forms OK | How long have you (been) living here? |
+
+| Answer Type | Structure | Example |
+|-------------|-----------|---------|
+| Duration | For + period | For six months |
+| Starting point | Since + time | Since March |
+| Starting event | Since + clause | Since I started school |
 
 ---
 
 *Examples from "A Jeju Boy's Marathon Journey" by ohama*
+*Grammar reference: English Grammar in Use (Raymond Murphy)*

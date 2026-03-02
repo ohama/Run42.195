@@ -1,12 +1,12 @@
 # Unit 144: Phrasal Verbs (8) - up (2)
 
-## A. 문법 설명 (Grammar Explanation)
+## A. 개념 설명 (Grammar Explanation)
 
 ### English
-This unit continues exploring phrasal verbs with **up**, focusing on meanings related to **giving up**, **finishing**, and **breaking/dividing**. These are common expressions in everyday English.
+This unit continues exploring phrasal verbs with **up**, focusing on meanings related to **giving up**, **finishing**, **staying awake**, and **occurrence**. These are common expressions in everyday English.
 
 ### Korean
-이 유닛에서는 **포기**, **끝내기**, **나누기/부서짐**과 관련된 **up** 구동사를 계속 다룹니다. 이들은 일상 영어에서 흔히 사용되는 표현입니다.
+이 유닛에서는 **포기**, **끝내기**, **깨어있음**, **발생**과 관련된 **up** 구동사를 계속 다룹니다. 이들은 일상 영어에서 흔히 사용되는 표현입니다.
 
 ---
 
@@ -14,39 +14,54 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 
 ### 1. 포기/그만두기 (Giving up)
 
+| Phrasal Verb | Meaning |
+|--------------|---------|
+| give up | 포기하다 |
+| give up on | ~을 포기하다 |
+
 > **"I can't give up."**
 > 포기할 수 없다.
 
-- give up = 포기하다
-
-> **"But I didn't give up."**
-> 하지만 포기하지 않았다.
+> **"Don't give up on your dreams."**
+> 꿈을 포기하지 마.
 
 ### 2. 끝내기/완료 (Finishing/Completing)
+
+| Phrasal Verb | Meaning |
+|--------------|---------|
+| finish up | 마치다 |
+| end up | 결국 ~이 되다 |
+| clean up | 청소하다 |
+| wrap up | 마무리하다 |
 
 > **"I finished up my training."**
 > 훈련을 마쳤다.
 
-- finish up = 마치다
+> **"I ended up running every day."**
+> 결국 매일 달리게 되었다.
 
-> **"I cleaned up the mess."**
-> 어지러운 것을 치웠다.
+### 3. 깨어있음 (Staying awake)
 
-- clean up = 청소하다, 치우다
+| Phrasal Verb | Meaning |
+|--------------|---------|
+| stay up | 깨어있다 |
+| sit up | 일어나 앉다 |
 
-### 3. 나타남/생김 (Coming into existence)
+> **"I stayed up late watching YouTube."**
+> 유튜브 보느라 늦게까지 깨어있었다.
+
+### 4. 일어남/발생 (Coming up/Happening)
+
+| Phrasal Verb | Meaning |
+|--------------|---------|
+| come up | 생기다, 나타나다 |
+| come up with | 생각해내다 |
 
 > **"A problem came up."**
 > 문제가 생겼다.
 
-- come up = 생기다, 발생하다
-
-### 4. 접근 (Approaching)
-
-> **"She came up to me."**
-> 그녀가 내게 다가왔다.
-
-- come up (to) = 다가오다
+> **"I came up with a good idea."**
+> 좋은 아이디어를 생각해냈다.
 
 ---
 
@@ -56,8 +71,6 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 
 > **"I can't give up."**
 > 포기할 수 없다.
-
-- give up = 포기하다
 
 > **"But you didn't give up."**
 > 하지만 넌 포기하지 않았어.
@@ -76,19 +89,13 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 > **"A bunch of articles came up."**
 > 많은 기사들이 나왔다.
 
-- come up = (화면에) 나오다
-
 > **"The thought came up."**
 > 그 생각이 떠올랐다.
-
-- come up = (생각이) 떠오르다
 
 ### Example 3: get up (일어나다)
 
 > **"Monday mornings, I want to get up fast."**
 > 월요일 아침에 빨리 일어나고 싶다.
-
-- get up = (침대에서) 일어나다
 
 > **"I didn't want to get up."**
 > 일어나고 싶지 않았다.
@@ -98,22 +105,13 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 > **"I stayed up late watching YouTube last night."**
 > 어젯밤 유튜브 보느라 늦게까지 깨어있었다.
 
-- stay up = (잠자지 않고) 깨어있다
-
-### Example 5: 눈을 뜨다 (open up eyes)
-
-> **"When I opened my eyes this morning..."**
-> 오늘 아침 눈을 떴을 때...
-
-- open (one's) eyes = 눈을 뜨다 (관용적)
-
 ---
 
 ## D. GIVE UP 자세히 보기 (Focus on GIVE UP)
 
 **give up**은 두 가지로 사용됩니다:
 
-### 1. 자동사 (목적어 없이)
+### 1. 자동사 (Intransitive - 목적어 없이)
 
 > **"I can't give up."**
 > 포기할 수 없다.
@@ -121,7 +119,7 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 > **"Don't give up."**
 > 포기하지 마.
 
-### 2. 타동사 (목적어와 함께)
+### 2. 타동사 (Transitive - 목적어와 함께)
 
 > **"I gave up running."**
 > 달리기를 포기했다.
@@ -129,67 +127,102 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 > **"Don't give up your dream."**
 > 꿈을 포기하지 마.
 
-**참고:** 대명사는 중간에!
+### 대명사 위치 (Pronoun Position):
 - give **it** up ✓
-- give up **it** ✗
+- ~~give up it~~ ✗
+
+### give up vs give up on:
+| give up + 명사/-ing | give up on + 사람/것 |
+|---------------------|---------------------|
+| 그만두다 | ~을 포기하다/단념하다 |
+| I gave up smoking. | Don't give up on me. |
+| 담배를 끊었다. | 나를 포기하지 마. |
 
 ---
 
-## E. UP을 포함한 추가 구동사 (More Phrasal Verbs with UP)
+## E. END UP 자세히 보기 (Focus on END UP)
 
-| Phrasal Verb | Meaning | Example |
-|--------------|---------|---------|
-| **give up** | 포기하다 | I can't give up. |
-| **get up** | 일어나다 | I want to get up fast. |
-| **stay up** | 깨어있다 | I stayed up late. |
-| **come up** | 나타나다/생기다 | A problem came up. |
-| **run up** | 달려가다 | Minseo ran up to me. |
-| **mix up** | 섞다/혼동하다 | I mixed up the dates. |
-| **make up** | 만들어내다/화해하다 | I made up my mind. |
-| **cheer up** | 기운 내다 | Cheer up! |
+**end up**은 "결국 ~하게 되다"의 의미입니다.
+
+### Structure:
+```
+end up + -ing
+end up + adjective
+end up + in/at + place
+```
+
+### Examples:
+> **"I ended up running every day."**
+> 결국 매일 달리게 되었다.
+
+> **"I ended up tired but happy."**
+> 결국 피곤하지만 행복해졌다.
+
+> **"I ended up at the wrong stop."**
+> 결국 잘못된 정류장에 도착했다.
 
 ---
 
-## F. 비유적 의미 비교 (Figurative meanings)
+## F. 흔한 실수 (Common Mistakes)
 
-| 구동사 | 물리적 의미 | 비유적 의미 |
-|--------|------------|------------|
-| get up | 일어나다 | 일어나다 (침대에서) |
-| give up | 위로 주다 | 포기하다 |
-| come up | 올라오다 | 생기다, 나타나다 |
-| stay up | 위에 머물다 | 깨어있다 |
+| Wrong (X) | Correct (O) | Explanation |
+|-----------|-------------|-------------|
+| ~~give up it~~ | **give it up** | 대명사는 중간에 |
+| ~~give up to run~~ | **give up running** | give up + -ing |
+| ~~end up to run~~ | **end up running** | end up + -ing |
+| ~~stay up awake~~ | **stay up** (단독) | stay up = 깨어있다 |
+| ~~came up idea~~ | **came up with** an idea | 아이디어 = come up with |
+
+### give up 뒤에 동명사:
+> ~~I gave up to smoke.~~
+> ✓ I **gave up smoking**.
+
+### come up vs come up with:
+| come up | come up with |
+|---------|--------------|
+| 나타나다/생기다 | 생각해내다 |
+| A problem came up. | I came up with an idea. |
 
 ---
 
 ## Exercises
 
-### A. 알맞은 구동사를 선택하세요.
+### A. 알맞은 구동사 선택하기
 
 1. 포기할 수 없다.
-   - a) get up b) give up c) come up
+   - a) get up  b) give up  c) come up
 
 2. 빨리 일어나고 싶다.
-   - a) stay up b) give up c) get up
+   - a) stay up  b) give up  c) get up
 
 3. 늦게까지 깨어있었다.
-   - a) stayed up b) gave up c) got up
+   - a) stayed up  b) gave up  c) got up
 
 4. 문제가 생겼다.
-   - a) came up b) gave up c) got up
+   - a) came up  b) gave up  c) got up
+
+5. 결국 매일 달리게 되었다.
+   - a) gave up  b) ended up  c) stayed up
 
 **Answers:**
 1. b) give up
 2. c) get up
 3. a) stayed up
 4. a) came up
+5. b) ended up
 
-### B. 빈칸을 채우세요.
+---
+
+### B. 빈칸 채우기
 
 1. I can't give _______.
 2. I want to get _______ fast.
 3. I stayed _______ late.
 4. A problem came _______.
 5. But you didn't give _______.
+6. I ended _______ running every day.
+7. I came _______ with a good idea.
+8. Don't give _______ on your dreams.
 
 **Answers:**
 1. up
@@ -197,48 +230,81 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 3. up
 4. up
 5. up
+6. up
+7. up
+8. up
 
-### C. 문장을 영어로 바꾸세요.
+---
 
-1. 포기하지 마.
-   → Don't _______ _______.
+### C. 틀린 부분 고치기 (Error Correction)
 
-2. 일어나고 싶지 않았다.
-   → I didn't want to _______ _______.
-
-3. 늦게까지 깨어있었다.
-   → I _______ _______ late.
-
-4. 그때 포기하지 마.
-   → Don't _______ _______ then.
+1. I gave up it.
+2. I gave up to smoke.
+3. I end up to run every day.
+4. A good idea came up me.
+5. Don't give up to your dreams.
 
 **Answers:**
-1. give up
-2. get up
-3. stayed up
-4. give up
+1. I **gave it up**.
+2. I **gave up smoking**.
+3. I **ended up running** every day.
+4. A good idea **came up** / I **came up with** a good idea.
+5. Don't give up **on** your dreams.
 
-### D. 문장 완성하기
+---
+
+### D. 영작하기 (Translate into English)
+
+1. 포기하지 마.
+2. 일어나고 싶지 않았다.
+3. 늦게까지 깨어있었다.
+4. 그때 포기하지 마.
+5. 좋은 아이디어를 생각해냈다.
+6. 결국 피곤하게 되었다.
+
+**Answers:**
+1. Don't give up.
+2. I didn't want to get up.
+3. I stayed up late.
+4. Don't give up then.
+5. I came up with a good idea.
+6. I ended up tired.
+
+---
+
+### E. 문맥에 맞게 빈칸 채우기
 
 1. After 30km, the wall hits. Don't _______ then. (포기하다)
 2. Monday mornings, I want to _______ fast. (일어나다)
 3. I _______ late watching YouTube. (깨어있다)
 4. A bunch of articles _______. (나타나다)
+5. I _______ running every day. (결국 ~하게 되다)
+6. I _______ a new training method. (생각해내다)
 
 **Answers:**
 1. give up
 2. get up
 3. stayed up
 4. came up
+5. ended up
+6. came up with
 
-### E. 대명사 위치 수정
+---
 
-1. I gave up it. → _______
-2. I got it up. → _______
+### F. give up의 다양한 쓰임 연습
+
+Complete the sentences:
+
+1. I can't _______ . (포기하다)
+2. I _______ smoking last year. (끊다)
+3. Don't _______ me. (나를 포기하다)
+4. She _______ her seat for the elderly. (자리를 양보하다)
 
 **Answers:**
-1. I gave it up. (분리 가능한 경우)
-2. 의미에 따라 다름 (get up은 보통 목적어 없이 사용)
+1. give up
+2. gave up
+3. give up on
+4. gave up
 
 ---
 
@@ -252,17 +318,36 @@ This unit continues exploring phrasal verbs with **up**, focusing on meanings re
 | I stayed up late watching YouTube. | 유튜브 보느라 늦게까지 깨어있었다. |
 | Don't give up then. | 그때 포기하지 마. |
 | A bunch of articles came up. | 많은 기사들이 나왔다. |
+| I ended up running every day. | 결국 매일 달리게 되었다. |
+| I came up with a good idea. | 좋은 아이디어를 생각해냈다. |
 
 ---
 
-## Summary: UP 구동사 (포기/일어남/생김)
+## UP 구동사 요약 (포기/일어남/깨어있음)
 
-1. **포기** - give up
-2. **일어남** - get up, wake up
-3. **깨어있음** - stay up
-4. **생김/나타남** - come up
-5. **다가옴** - come up to
+| Meaning | Phrasal Verb | Example |
+|---------|--------------|---------|
+| 포기 | give up | I can't give up. |
+| 일어남 | get up, wake up | I want to get up fast. |
+| 깨어있음 | stay up | I stayed up late. |
+| 발생 | come up | A problem came up. |
+| 생각해내다 | come up with | I came up with an idea. |
+| 결국 ~되다 | end up | I ended up tired. |
+
+---
+
+## 비교표: 유사한 UP 구동사
+
+| Phrasal Verb | Meaning | Followed by |
+|--------------|---------|-------------|
+| give up | 포기하다 | -ing / 명사 |
+| give up on | ~을 단념하다 | 명사 |
+| come up | 나타나다 | (자동사) |
+| come up with | 생각해내다 | 명사 |
+| end up | 결국 ~되다 | -ing / 형용사 |
+| stay up | 깨어있다 | (자동사) |
 
 ---
 
 *Examples from "A Jeju Boy's Marathon Journey" by ohama*
+*Grammar reference: English Grammar in Use (Raymond Murphy)*

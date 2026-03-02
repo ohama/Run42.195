@@ -1,20 +1,45 @@
 # Unit 2: Present Simple (I do)
 
-## A. 현재시제의 형태
+## A. 현재시제의 형태 (Form)
 
-| Subject | Verb |
-|---------|------|
-| I/You/We/They | work, walk, run |
-| He/She/It | work**s**, walk**s**, run**s** |
+**Subject + verb (base form / -s/-es)**
 
-**부정문:** do/does + not + 동사원형
-**의문문:** Do/Does + 주어 + 동사원형?
+| Subject | Verb | Full Example |
+|---------|------|--------------|
+| I | work | I work every day. |
+| You | walk | You walk to school. |
+| We/They | run | They run in the morning. |
+| He/She/It | work**s** | She works hard. |
+
+### Negative and Questions:
+
+| Type | Structure | Example |
+|------|-----------|---------|
+| Positive | verb / verb-s | I work. / He works. |
+| Negative | do/does + not + verb | I don't work. / He doesn't work. |
+| Question | Do/Does + subject + verb? | Do you work? / Does he work? |
+
+### Contractions:
+- do not → don't
+- does not → doesn't
 
 ---
 
 ## B. 일반적인 사실, 습관 (General truths and habits)
 
+**"I do something" = I do it regularly, or it's generally true.**
+
 현재시제는 **항상 그렇거나, 반복되는 일**을 표현합니다.
+
+### From the Original Book:
+> "I **work** in a bank." (직업)
+> 나는 은행에서 일한다.
+
+> "Water **boils** at 100 degrees Celsius." (일반적 사실)
+> 물은 100도에서 끓는다.
+
+> "The earth **goes** around the sun." (과학적 사실)
+> 지구는 태양 주위를 돈다.
 
 ### Examples from the Novel:
 
@@ -44,6 +69,25 @@
 
 현재시제는 **always, usually, often, sometimes, never** 등과 자주 쓰입니다.
 
+### Frequency Adverb Spectrum:
+
+| Frequency | Adverb | Korean | Example |
+|-----------|--------|--------|---------|
+| 100% | always | 항상 | I always walk to school. |
+| 90% | usually | 보통 | I usually take the bus. |
+| 70% | often | 자주 | I often feel tired. |
+| 50% | sometimes | 가끔 | I sometimes miss the bus. |
+| 30% | occasionally | 때때로 | I occasionally run. |
+| 10% | rarely/seldom | 거의 안 | I rarely get sick. |
+| 0% | never | 절대 안 | I never give up. |
+
+### Word Order:
+- 빈도부사는 보통 **동사 앞**에 옵니다.
+- be동사와 함께 쓸 때는 **be동사 뒤**에 옵니다.
+
+> "I **always** walk to school." (일반 동사 앞)
+> "I **am** always tired." (be동사 뒤)
+
 ### Examples from the Novel:
 
 > **"I don't really like running."**
@@ -55,8 +99,6 @@
 > **"Mondays are the hardest."**
 > 월요일이 가장 힘들다.
 
-- 일반적인 사실
-
 > **"My stomach doesn't churn."**
 > 속이 울렁거리지 않는다.
 
@@ -66,10 +108,13 @@
 
 ### 부정문 (Negatives)
 
-| Full form | Contracted |
-|-----------|------------|
-| I do not like | I **don't** like |
-| He does not know | He **doesn't** know |
+| Full form | Contracted | Korean |
+|-----------|------------|--------|
+| I do not like | I **don't** like | 좋아하지 않는다 |
+| He does not know | He **doesn't** know | 모른다 |
+
+**주의:** does 뒤에는 동사원형!
+- He work**s** → He **doesn't work** (NOT: doesn't works)
 
 ### Examples from the Novel:
 
@@ -84,6 +129,11 @@
 
 ### 의문문 (Questions)
 
+| Question Type | Structure | Example |
+|---------------|-----------|---------|
+| Yes/No | Do/Does + subject + verb? | Do you run? |
+| Wh- | Wh- + do/does + subject + verb? | Where do you run? |
+
 > **"Where do you catch the bus?"**
 > 어디서 버스 타?
 
@@ -95,15 +145,15 @@
 
 ---
 
-## E. 3인칭 단수 (-s/-es) 규칙
+## E. 3인칭 단수 (-s/-es) 규칙 (Spelling rules)
 
-| Rule | Example |
-|------|---------|
-| 대부분: +s | work → works, run → runs |
-| -s/-sh/-ch/-x/-o: +es | go → goes, watch → watches |
-| 자음+y: y → ies | study → studies, carry → carries |
-| 모음+y: +s | play → plays, stay → stays |
-| have → has | have → has |
+| Rule | Base | 3rd Person | More Examples |
+|------|------|------------|---------------|
+| 대부분: +s | work | work**s** | run → runs, walk → walks |
+| -s/-sh/-ch/-x/-o: +es | go | go**es** | watch → watches, miss → misses |
+| 자음+y: y → ies | study | stud**ies** | carry → carries, try → tries |
+| 모음+y: +s | play | play**s** | stay → stays, say → says |
+| have → has | have | **has** | (불규칙) |
 
 ### From the Novel:
 
@@ -118,6 +168,19 @@
 
 ---
 
+## F. 흔한 실수 (Common Mistakes)
+
+| Wrong (X) | Correct (O) | Explanation |
+|-----------|-------------|-------------|
+| ~~He work every day.~~ | He **works** every day. | 3인칭 단수 -s 필요 |
+| ~~She don't like it.~~ | She **doesn't** like it. | 3인칭 단수 does 사용 |
+| ~~Does he works?~~ | **Does** he **work**? | does 뒤 동사원형 |
+| ~~I am work here.~~ | I **work** here. | be동사+일반동사 함께 안 씀 |
+| ~~Where you live?~~ | **Where do you live?** | 의문문에 do 필요 |
+| ~~He doesn't likes.~~ | He **doesn't like**. | does 뒤 동사원형 |
+
+---
+
 ## Exercises
 
 ### A. 올바른 형태를 고르세요.
@@ -127,6 +190,9 @@
 3. School (start / starts) at 8:30.
 4. Where (do / does) you catch the bus?
 5. My stomach always (churn / churns) on the bus.
+6. Water (boil / boils) at 100 degrees.
+7. She (don't / doesn't) know the answer.
+8. (Do / Does) he take the bus every day?
 
 **Answers:**
 1. comes
@@ -134,6 +200,9 @@
 3. starts
 4. do
 5. churns
+6. boils
+7. doesn't
+8. Does
 
 ### B. 부정문으로 바꾸세요.
 
@@ -146,6 +215,12 @@
 3. She knows the answer.
    → She **doesn't know** the answer.
 
+4. They walk to school every day.
+   → They **don't walk** to school every day.
+
+5. He runs in the morning.
+   → He **doesn't run** in the morning.
+
 ### C. 의문문으로 바꾸세요.
 
 1. You catch the bus at Jocheon.
@@ -153,6 +228,31 @@
 
 2. He takes the 201 bus.
    → **Does he take** the 201 bus?
+
+3. The train arrives at 8.
+   → **Does the train arrive** at 8?
+
+4. They live in Jeju.
+   → **Do they live** in Jeju?
+
+### D. 틀린 부분 고치기
+
+Find and correct the mistakes:
+
+1. She don't like running.
+   → She **doesn't** like running.
+
+2. Does he works every day?
+   → Does he **work** every day?
+
+3. Where you catch the bus?
+   → **Where do you** catch the bus?
+
+4. The earth go around the sun.
+   → The earth **goes** around the sun.
+
+5. I am walk to school every day.
+   → I **walk** to school every day.
 
 ---
 
@@ -165,6 +265,9 @@
 | I don't really like running. | 나는 달리기를 별로 안 좋아한다. |
 | Where do you catch the bus? | 어디서 버스 타? |
 | That's my commute now. | 그게 지금 내 통학길이다. |
+| Water boils at 100 degrees. | 물은 100도에서 끓는다. |
+| I always walk to school. | 나는 항상 걸어서 학교에 간다. |
+| She doesn't know the answer. | 그녀는 답을 모른다. |
 
 ---
 
@@ -175,6 +278,7 @@
 | 습관, 반복되는 일 | 지금 진행 중인 일 |
 | I **walk** to school. (매일) | I **am walking** to school. (지금) |
 | The bus **comes** at 7:30. (매일) | The bus **is coming**. (지금 오는 중) |
+| Water **boils** at 100°C. (사실) | The water **is boiling**. (지금 끓는 중) |
 
 ### From the Novel:
 
@@ -183,4 +287,18 @@
 
 ---
 
+## Summary: When to Use Present Simple
+
+| Situation | Example |
+|-----------|---------|
+| Daily routines | I wake up at 6:20. |
+| Regular habits | I walk to school every day. |
+| General facts | Water boils at 100°C. |
+| Permanent situations | I live in Jeju. |
+| Schedules/Timetables | The bus comes at 7:30. |
+| With frequency adverbs | I always eat breakfast. |
+
+---
+
 *Examples from "A Jeju Boy's Marathon Journey" by ohama*
+*Grammar reference: English Grammar in Use (Raymond Murphy)*

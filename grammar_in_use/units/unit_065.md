@@ -1,16 +1,34 @@
 # Unit 65: Adjective + to...
 
-## A. 형용사 + to부정사
+## A. 형용사 + to부정사 (Form)
 
 많은 형용사 뒤에 **to부정사**가 옵니다.
 
-**주요 패턴:**
-- It's + 형용사 + to + 동사
-- 주어 + be + 형용사 + to + 동사
+| Pattern | Example | Korean |
+|---------|---------|--------|
+| It's + 형용사 + to + 동사 | It's hard to run. | 달리기는 힘들다. |
+| 주어 + be + 형용사 + to + 동사 | I was happy to finish. | 끝내서 기뻤다. |
+| It's + 형용사 + (for someone) + to + 동사 | It's hard for me to run. | 나에게 달리기는 힘들다. |
+
+### From the Original Book:
+
+> "It's **difficult to understand** him."
+> 그를 이해하기 어려워.
+
+> "She was **pleased to see** me."
+> 그녀는 나를 보고 기뻐했어.
 
 ---
 
-## B. It's + 형용사 + to + 동사
+## B. It's + 형용사 + to + 동사 (Primary Usage)
+
+### From the Original Book:
+
+> "**It's nice to see** you again."
+> 다시 만나서 반가워.
+
+> "**It's easy to make** mistakes."
+> 실수하기 쉬워.
 
 ### Examples from the Novel:
 
@@ -34,11 +52,31 @@
 
 - **It's easy to + 동사**: ~하기 쉽다
 
+### 주요 형용사:
+
+| 형용사 | Example |
+|--------|---------|
+| hard/difficult | It's hard to run 42km. |
+| easy | It's easy to give up. |
+| important | It's important to train. |
+| necessary | It's necessary to rest. |
+| nice/good | It's nice to see you. |
+| dangerous | It's dangerous to run alone. |
+| impossible | It's impossible to finish. |
+
 ---
 
-## C. It's + 형용사 + (for someone) + to + 동사
+## C. It's + 형용사 + (for someone) + to + 동사 (Adding Subject)
 
 누구에게 해당하는지 명시할 때 **for + 사람**을 넣습니다.
+
+### From the Original Book:
+
+> "**It's impossible for me to help** you today."
+> 오늘 도와주는 건 나에게 불가능해.
+
+> "**It was difficult for him to find** a job."
+> 그에게 직장을 찾는 건 어려웠어.
 
 ### Examples from the Novel:
 
@@ -53,11 +91,33 @@
 > **"It's important for runners to stay hydrated."**
 > 러너들에게 수분 유지가 중요하다.
 
+### for someone vs of someone:
+
+| for + 사람 | of + 사람 |
+|------------|-----------|
+| 일반적 상황 | 사람의 성격/행동 판단 |
+| It's hard **for me** to... | It's kind **of you** to... |
+| It's easy **for her** to... | It's stupid **of him** to... |
+
+> "It was kind **of you** to help me."
+> 도와주다니 친절하시네요.
+
+> "It was stupid **of me** to forget."
+> 잊어버리다니 내가 어리석었어.
+
 ---
 
-## D. 주어 + be + 형용사 + to + 동사
+## D. 주어 + be + 형용사 + to + 동사 (Emotional Reactions)
 
 감정이나 상태를 나타내는 형용사와 함께 쓰입니다.
+
+### From the Original Book:
+
+> "I was **surprised to hear** the news."
+> 그 소식을 듣고 놀랐어.
+
+> "We were **delighted to receive** your letter."
+> 편지를 받아서 기뻤어.
 
 ### Examples from the Novel:
 
@@ -83,24 +143,33 @@
 
 ---
 
-## E. 감정 형용사 + to
+## E. 감정 형용사 + to (Emotion Adjectives)
 
-| Adjective | Example |
-|-----------|---------|
-| happy | I was happy to finish. |
-| glad | I was glad to see you. |
-| pleased | I was pleased to hear that. |
-| sad | I was sad to leave. |
-| sorry | I'm sorry to hear that. |
-| surprised | I was surprised to see him. |
-| shocked | I was shocked to learn that. |
-| relieved | I was relieved to finish. |
-| excited | I'm excited to run. |
-| afraid | I was afraid to fail. |
+| Adjective | Meaning | Example |
+|-----------|---------|---------|
+| happy | 행복한 | I was happy to finish. |
+| glad | 기쁜 | I was glad to see you. |
+| pleased | 기뻐하는 | I was pleased to hear that. |
+| sad | 슬픈 | I was sad to leave. |
+| sorry | 유감인 | I'm sorry to hear that. |
+| surprised | 놀란 | I was surprised to see him. |
+| shocked | 충격받은 | I was shocked to learn that. |
+| relieved | 안도한 | I was relieved to finish. |
+| excited | 신난 | I'm excited to run. |
+| afraid | 두려운 | I was afraid to fail. |
+| disappointed | 실망한 | I was disappointed to lose. |
+
+### 감정 강도:
+
+```
+shocked > surprised > amazed (놀람)
+delighted > pleased > happy > glad (기쁨)
+terrified > scared > afraid (두려움)
+```
 
 ---
 
-## F. 상태/준비 형용사 + to
+## F. 상태/준비 형용사 + to (State/Readiness)
 
 ### Examples from the Novel:
 
@@ -125,24 +194,21 @@
 | unlikely | ~할 것 같지 않은 | I'm unlikely to quit. |
 | certain | 확실한 | I'm certain to finish. |
 | sure | 확신하는 | I'm sure to do well. |
+| bound | 틀림없이 ~할 | It's bound to rain. |
+| due | ~할 예정인 | The race is due to start. |
 
 ---
 
-## G. 형용사 + to 의미 변화
+## G. 흔한 실수 (Common Mistakes)
 
-일부 형용사는 to부정사와 함께 쓰이면 의미가 달라집니다.
-
-| Adjective + to | Meaning |
-|----------------|---------|
-| nice to meet you | 만나서 반가워요 |
-| good to see you | 봐서 좋아요 |
-| hard to believe | 믿기 어려운 |
-| easy to understand | 이해하기 쉬운 |
-
-### From the Novel:
-
-> **"It was hard to believe I ran 42km."**
-> 42km를 뛰었다는 게 믿기 어려웠다.
+| Wrong (X) | Correct (O) | Explanation |
+|-----------|-------------|-------------|
+| ~~It's hard **running**.~~ | It's hard **to run**. | It's + 형용사 + to |
+| ~~I was happy **finishing**.~~ | I was happy **to finish**. | 감정 + to |
+| ~~It's important **that train**.~~ | It's important **to train**. | to 부정사 필요 |
+| ~~I'm ready **running**.~~ | I'm ready **to run**. | ready + to |
+| ~~It's hard **for me running**.~~ | It's hard **for me to run**. | for + 사람 + to |
+| ~~I was surprise to see.~~ | I was **surprised** to see. | 형용사 형태 필요 |
 
 ---
 
@@ -155,6 +221,9 @@
 3. It's hard for me (to wake / waking) up early.
 4. I'm ready (to start / starting) the race.
 5. She was surprised (to see / seeing) me.
+6. It's nice (to meet / meeting) you.
+7. I was relieved (to cross / crossing) the finish line.
+8. It's easy (to give / giving) up.
 
 **Answers:**
 1. to stretch
@@ -162,6 +231,9 @@
 3. to wake
 4. to start
 5. to see
+6. to meet
+7. to cross
+8. to give
 
 ### B. 문장을 완성하세요.
 
@@ -170,6 +242,9 @@
 3. It's important for runners _______ (stay) hydrated.
 4. I'm willing _______ (train) hard.
 5. She was excited _______ (start) running.
+6. It's easy _______ (make) mistakes.
+7. I was surprised _______ (hear) the news.
+8. It's impossible for me _______ (finish) today.
 
 **Answers:**
 1. to run
@@ -177,6 +252,9 @@
 3. to stay
 4. to train
 5. to start
+6. to make
+7. to hear
+8. to finish
 
 ### C. 형용사를 사용하여 문장을 만드세요.
 
@@ -189,10 +267,33 @@
 3. 마라톤을 뛸 준비가 됐다. (ready)
    → I'm _______.
 
+4. 그 소식을 듣고 놀랐다. (surprised)
+   → I was _______.
+
+5. 스트레칭하는 게 중요하다. (important)
+   → It's _______.
+
 **Answers:**
 1. happy to finish the race
 2. hard to wake up early
 3. ready to run the marathon
+4. surprised to hear the news
+5. important to stretch
+
+### D. for 또는 of를 넣으세요.
+
+1. It's hard _______ me to wake up early.
+2. It was kind _______ you to help.
+3. It's important _______ runners to rest.
+4. It was stupid _______ me to forget.
+5. It's difficult _______ beginners to run 10km.
+
+**Answers:**
+1. for
+2. of
+3. for
+4. of
+5. for
 
 ---
 
@@ -205,7 +306,35 @@
 | I'm ready to start. | 시작할 준비가 됐다. |
 | It's important to stretch before running. | 달리기 전에 스트레칭하는 게 중요하다. |
 | I was relieved to cross the finish line. | 결승선을 통과해서 안도했다. |
+| It was hard for me to wake up early. | 나에게 일찍 일어나는 건 힘들었다. |
+| I'm willing to train hard. | 열심히 훈련할 의향이 있다. |
+| She was surprised to see me. | 그녀는 나를 보고 놀랐다. |
+
+---
+
+## Summary: 형용사 + to 패턴
+
+### Pattern 1: It's + 형용사 + to
+| 형용사 | Example |
+|--------|---------|
+| hard/difficult | It's hard to run. |
+| easy | It's easy to give up. |
+| important | It's important to train. |
+| nice/good | It's nice to meet you. |
+
+### Pattern 2: It's + 형용사 + for/of + 사람 + to
+| for + 사람 | of + 사람 |
+|------------|-----------|
+| 일반 상황 | 성격/행동 판단 |
+| It's hard **for** me... | It's kind **of** you... |
+
+### Pattern 3: 주어 + be + 형용사 + to
+| Category | Adjectives |
+|----------|------------|
+| 감정 | happy, sad, surprised, relieved, excited |
+| 준비/상태 | ready, willing, able, likely, certain |
 
 ---
 
 *Examples from "A Jeju Boy's Marathon Journey" by ohama*
+*Grammar reference: English Grammar in Use (Raymond Murphy)*
