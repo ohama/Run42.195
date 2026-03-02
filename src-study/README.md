@@ -2,6 +2,12 @@
 
 Comprehensive English conversation study guides based on "A Jeju Boy's Marathon Journey."
 
+## Read Online
+
+- [한국어 원작](https://ohama.github.io/Run42.195/ko/) - 104 entries complete
+- [English Translation](https://ohama.github.io/Run42.195/en/) - 104/104 entries
+- [English Study Guide](https://ohama.github.io/Run42.195/study/) - Conversation practice guides
+
 ## About This Study Guide
 
 Each diary entry comes with a detailed study guide designed for Korean adult English learners (40s demographic). Learn natural English expressions through the story of a 14-year-old boy's marathon journey.

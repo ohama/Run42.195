@@ -36,6 +36,41 @@ jobs:
             fi
           done
 
+      - name: Add navigation links to Korean scenes
+        run: |
+          for file in draft/scenes/entry_*.md; do
+            if [ -f "$file" ]; then
+              entry=$(basename "$file" .md)
+              num=$(echo "$entry" | sed 's/entry_//')
+              nav_top="<div style=\"text-align:center;margin-bottom:20px;padding:10px;background:#f5f5f5;border-radius:8px;\">📖 <strong>한국어</strong> | <a href=\"/Run42.195/en/scenes/${entry}.html\">🌏 English</a> | <a href=\"/Run42.195/study/guides/${entry}_analysis.html\">📚 Study</a></div>"
+              nav_bottom="<div style=\"text-align:center;margin-top:30px;padding:10px;background:#f5f5f5;border-radius:8px;\">📖 <strong>한국어</strong> | <a href=\"/Run42.195/en/scenes/${entry}.html\">🌏 English</a> | <a href=\"/Run42.195/study/guides/${entry}_analysis.html\">📚 Study</a></div>"
+              echo -e "${nav_top}\n\n$(cat "$file")\n\n${nav_bottom}" > "$file"
+            fi
+          done
+
+      - name: Add navigation links to English scenes
+        run: |
+          for file in translation/en/scenes/entry_*.md; do
+            if [ -f "$file" ]; then
+              entry=$(basename "$file" .md)
+              num=$(echo "$entry" | sed 's/entry_//')
+              nav_top="<div style=\"text-align:center;margin-bottom:20px;padding:10px;background:#f5f5f5;border-radius:8px;\"><a href=\"/Run42.195/ko/scenes/${entry}.html\">📖 한국어</a> | 🌏 <strong>English</strong> | <a href=\"/Run42.195/study/guides/${entry}_analysis.html\">📚 Study</a></div>"
+              nav_bottom="<div style=\"text-align:center;margin-top:30px;padding:10px;background:#f5f5f5;border-radius:8px;\"><a href=\"/Run42.195/ko/scenes/${entry}.html\">📖 한국어</a> | 🌏 <strong>English</strong> | <a href=\"/Run42.195/study/guides/${entry}_analysis.html\">📚 Study</a></div>"
+              echo -e "${nav_top}\n\n$(cat "$file")\n\n${nav_bottom}" > "$file"
+            fi
+          done
+
+      - name: Add navigation links to Study guides
+        run: |
+          for file in study/en/entry_*_analysis.md; do
+            if [ -f "$file" ]; then
+              base=$(basename "$file" _analysis.md)
+              nav_top="<div style=\"text-align:center;margin-bottom:20px;padding:10px;background:#f5f5f5;border-radius:8px;\"><a href=\"/Run42.195/ko/scenes/${base}.html\">📖 한국어</a> | <a href=\"/Run42.195/en/scenes/${base}.html\">🌏 English</a> | 📚 <strong>Study</strong></div>"
+              nav_bottom="<div style=\"text-align:center;margin-top:30px;padding:10px;background:#f5f5f5;border-radius:8px;\"><a href=\"/Run42.195/ko/scenes/${base}.html\">📖 한국어</a> | <a href=\"/Run42.195/en/scenes/${base}.html\">🌏 English</a> | 📚 <strong>Study</strong></div>"
+              echo -e "${nav_top}\n\n$(cat "$file")\n\n${nav_bottom}" > "$file"
+            fi
+          done
+
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
         with:

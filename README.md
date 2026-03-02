@@ -5,7 +5,7 @@
 ## 온라인으로 읽기
 
 - [한국어 원작](https://ohama.github.io/Run42.195/ko/) - 104편 완결
-- [English Translation](https://ohama.github.io/Run42.195/en/) - 101/104 entries
+- [English Translation](https://ohama.github.io/Run42.195/en/) - 104/104 entries
 - [English Study Guide](https://ohama.github.io/Run42.195/study/) - 영어 회화 학습 가이드
 
 ## 소개
