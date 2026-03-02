@@ -50,6 +50,16 @@ jobs:
       - name: Build Study Guide
         run: mdbook build book-study
 
+      - name: Move Korean book to subdirectory
+        run: |
+          mkdir -p docs/ko
+          for item in docs/*; do
+            base=$(basename "$item")
+            if [ "$base" != "ko" ] && [ "$base" != "en" ] && [ "$base" != "study" ]; then
+              mv "$item" docs/ko/
+            fi
+          done
+
       - name: Create Landing Page
         run: |
           cat > docs/index.html << 'EOF'
@@ -129,16 +139,6 @@ jobs:
           </body>
           </html>
           EOF
-
-      - name: Move Korean book to subdirectory
-        run: |
-          mkdir -p docs/ko
-          for item in docs/*; do
-            base=$(basename "$item")
-            if [ "$base" != "ko" ] && [ "$base" != "en" ] && [ "$base" != "study" ] && [ "$base" != "index.html" ]; then
-              mv "$item" docs/ko/
-            fi
-          done
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
