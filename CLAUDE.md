@@ -185,6 +185,15 @@ grammar_in_use/
 4. **연습 문제** - 빈칸 채우기, 문장 변환
 5. **암기 문장** - Key Sentences
 
+## Markdown Formatting Rules
+
+- **Apostrophe contractions in bold**: Never split bold markers around apostrophes. Include the subject inside the bold.
+  - ❌ `I**'ve been able to**` — apostrophe breaks bold rendering
+  - ✅ `**I've been able to**` — subject included inside bold
+  - ❌ `You**'ll be able to**`
+  - ✅ `**You'll be able to**`
+  - Same applies to: `**I'm**, **I'd**, **he's**, **she'll**, **we've**, **they're**`, etc.
+
 ## Commands
 
 - `/novel:status` - Check project status
