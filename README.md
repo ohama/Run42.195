@@ -16,6 +16,7 @@
 |------|------|------|
 | **Study Guide** | 각 에피소드별 회화 학습 가이드 (104편) | `study/en/` |
 | **Grammar in Use** | 문법 학습 자료 (145 유닛) | `grammar_in_use/` |
+| **Short Stories** | 문법을 이야기로 엮은 암기용 단편 | `short_stories/` |
 
 ### Grammar in Use
 
@@ -29,6 +30,15 @@
 - 관사, 명사, 대명사
 - 관계절, 형용사, 부사
 - 전치사, 구동사
+
+### Short Stories (문법 암기용 단편)
+
+여러 유닛의 문법을 하나의 이야기로 엮어 자연스럽게 암기할 수 있도록 만든 단편입니다.
+도윤이의 소설 장면을 바탕으로 구성되어 있습니다.
+
+| 이야기 | 문법 범위 | 파일 |
+|--------|----------|------|
+| **The Year I Learned to Run Forward** | Units 20–24: 미래 표현 (be going to, will/shall, will be doing, will have done) | [`short_stories/units_020_024_future_forms.md`](short_stories/units_020_024_future_forms.md) |
 
 ## 소개
 
