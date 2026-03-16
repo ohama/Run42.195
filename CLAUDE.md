@@ -217,6 +217,91 @@ grammar_in_use/
 - 한국어 뉘앙스 비교 (e.g., "못했어" vs "못하고 있어" vs "못했을 거야")
 - 소설에서 반복되는 패턴이 있으면 별도 분석 (e.g., "couldn't have imagined" 7회 반복)
 
+## Short Stories (문법 암기용 단편)
+
+여러 Grammar in Use 유닛의 문법을 하나의 이야기로 엮어 암기할 수 있도록 만든 단편.
+소설의 장면을 바탕으로 구성합니다.
+
+### File Structure
+
+```
+short_stories/
+├── README.md                              # 목록 및 활용법
+├── units_020_024_future_forms.md          # Units 20-24
+├── units_025_027_when_can_could.md        # Units 25-27
+└── ...
+```
+
+### Naming Convention
+
+- 파일명: `units_XXX_YYY_주제키워드.md` (e.g., `units_020_024_future_forms.md`)
+
+### Document Structure (필수 구성)
+
+각 단편은 반드시 다음 순서로 구성:
+
+```
+# 영어 제목 (도윤이의 여정과 연결되는 제목)
+
+## A Short Story for Grammar Units XX–YY
+### 부제: 해당 문법 키워드 나열 (이탤릭)
+
+> 소개 블록: 소설 기반임을 설명, 굵은 글씨가 문법 포인트임을 안내
+
+---
+
+## Part 1~N: 소설 시간순 파트 (이모지 포함)
+*Grammar focus: 해당 파트의 문법 포커스*
+
+[이야기 본문 — 문법 포인트는 **굵은 글씨**]
+[괄호 안에 한국어 뜻 병기: (한국어 의미)]
+
+> 📝 문법 해설 블록 (각 파트 끝)
+
+---
+
+## Grammar Map 📌
+### Unit XX: 유닛 제목
+| 용법/접속사/형태 | 이야기 속 예문 | 파트 |
+(유닛별로 테이블 정리)
+
+---
+
+## Quick Decision Guide (빠른 판단 가이드)
+(코드 블록으로 판단 플로우차트)
+
+---
+
+## 5 Key Sentences to Memorize (암기 문장 5개)
+| # | Sentence | Grammar | Unit |
+
+---
+
+# 한국어 번역: 한글 제목
+> 영어 원문과 대조하며 읽을 수 있도록 안내
+
+## 파트 1~N: (영어 이야기의 전체 한국어 번역)
+(문법 해설 📝 블록은 제외, 순수 이야기만 번역)
+```
+
+### Writing Guidelines
+
+1. **이야기 흐름**: 소설의 시간순(3월→마라톤)을 따라 자연스러운 서사로 구성
+2. **문법 포인트**: 해당 문법이 쓰인 문장을 **굵은 글씨**로 표시
+3. **한국어 병기**: 대사/핵심 문장 뒤에 `(한국어 의미 — 문법 설명)` 괄호 표기
+4. **📝 해설 블록**: 각 파트 끝에 `>` 인용 블록으로 문법 해설, 비교표 포함
+5. **소설 예문 활용**: `translation/en/scenes/`에서 실제 소설 문장을 최대한 활용
+6. **Grammar Map**: 이야기에 등장한 모든 문법을 유닛별 테이블로 정리
+7. **Quick Decision Guide**: 코드 블록 안에 판단 플로우차트 작성
+8. **암기 문장 5개**: 이야기에서 가장 대표적인 5문장으로 유닛 전체 커버
+9. **한국어 번역**: 파일 맨 뒤에 이야기 부분만 전체 한국어 번역 추가 (문법 해설 제외)
+10. **제목**: 소설의 핵심 장면/감정을 담은 영어 제목 (e.g., "Things I Never Could Have Seen from the Bus")
+
+### After Creating a New Story
+
+1. `short_stories/README.md`의 목록 테이블에 행 추가
+2. `src-stories/SUMMARY.md`에 항목 추가 (mdBook 빌드용)
+
 ## Markdown Formatting Rules
 
 - **Apostrophe contractions in bold**: Never split bold markers around apostrophes. Include the subject inside the bold.
