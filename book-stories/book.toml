@@ -1,0 +1,17 @@
+[book]
+title = "Short Stories - Grammar Through Stories"
+authors = ["ohama"]
+description = "Grammar memorization through short stories based on A Jeju Boy's Marathon Journey"
+language = "en"
+src = "../src-stories"
+
+[build]
+build-dir = "../docs/stories"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/ohama/Run42.195"
+site-url = "/Run42.195/stories/"
+additional-css = ["theme/top-nav.css"]
+additional-js = ["theme/top-nav.js"]

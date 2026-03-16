@@ -78,15 +78,21 @@ jobs:
 
       - name: Copy theme files to each book directory
         run: |
-          mkdir -p book-en/theme book-study/theme book-grammar/theme
+          mkdir -p book-en/theme book-study/theme book-grammar/theme book-stories/theme
           cp theme/top-nav.css theme/top-nav.js book-en/theme/
           cp theme/top-nav.css theme/top-nav.js book-study/theme/
           cp theme/top-nav.css theme/top-nav.js book-grammar/theme/
+          cp theme/top-nav.css theme/top-nav.js book-stories/theme/
 
       - name: Setup grammar units for mdBook
         run: |
           mkdir -p src-grammar/units
           cp grammar_in_use/units/*.md src-grammar/units/
+
+      - name: Setup short stories for mdBook
+        run: |
+          mkdir -p src-stories/stories
+          cp short_stories/*.md src-stories/stories/
 
       - name: Build Korean Book
         run: mdbook build
@@ -100,12 +106,15 @@ jobs:
       - name: Build Grammar Guide
         run: mdbook build book-grammar
 
+      - name: Build Short Stories
+        run: mdbook build book-stories
+
       - name: Move Korean book to subdirectory
         run: |
           mkdir -p docs/ko
           for item in docs/*; do
             base=$(basename "$item")
-            if [ "$base" != "ko" ] && [ "$base" != "en" ] && [ "$base" != "study" ] && [ "$base" != "grammar" ]; then
+            if [ "$base" != "ko" ] && [ "$base" != "en" ] && [ "$base" != "study" ] && [ "$base" != "grammar" ] && [ "$base" != "stories" ]; then
               mv "$item" docs/ko/
             fi
           done
@@ -149,6 +158,7 @@ jobs:
               .card-en { border-top: 4px solid #e74c3c; }
               .card-study { border-top: 4px solid #2ecc71; }
               .card-grammar { border-top: 4px solid #9b59b6; }
+              .card-stories { border-top: 4px solid #f39c12; }
               .footer { text-align: center; color: white; margin-top: 40px; opacity: 0.8; font-size: 0.9rem; }
               .footer a { color: white; }
               .badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; margin-top: 15px; }
@@ -156,6 +166,7 @@ jobs:
               .badge-en { background: #fdeaea; color: #e74c3c; }
               .badge-study { background: #e8f8f0; color: #2ecc71; }
               .badge-grammar { background: #f3e8fc; color: #9b59b6; }
+              .badge-stories { background: #fef5e7; color: #f39c12; }
             </style>
           </head>
           <body>
@@ -188,6 +199,12 @@ jobs:
                   <h2>Grammar in Use</h2>
                   <p>영어 문법 학습 가이드. Raymond Murphy의 Grammar in Use 구조로 소설 예문과 함께 배워보세요.</p>
                   <span class="badge badge-grammar">145 Units</span>
+                </a>
+                <a href="./stories/" class="card card-stories">
+                  <div class="card-icon">📝</div>
+                  <h2>Short Stories</h2>
+                  <p>문법 암기용 단편. 여러 유닛의 문법을 도윤이의 이야기로 엮어 자연스럽게 암기할 수 있습니다.</p>
+                  <span class="badge badge-stories">Grammar Stories</span>
                 </a>
               </div>
               <div class="footer">
