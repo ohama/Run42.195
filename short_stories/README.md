@@ -8,6 +8,7 @@
 | # | 이야기 | 문법 범위 | 핵심 문법 |
 |---|--------|----------|----------|
 | 1 | [The Year I Learned to Run Forward](units_020_024_future_forms.md) | Units 20–24 | be going to, will/shall, will vs be going to, will be doing, will have done |
+| 2 | [Things I Never Could Have Seen from the Bus](units_025_027_when_can_could.md) | Units 25–27 | when/if + 현재시제, can/could/be able to, could have done |
 
 ## 구성
 
