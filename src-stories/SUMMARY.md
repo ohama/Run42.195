@@ -17,3 +17,7 @@
 # May and Might (Units 29-30)
 
 - [Maybe, Maybe Not](stories/units_029_030_may_might.md)
+
+# Have to, Must, Needn't (Units 31-32)
+
+- [The Rules of Running](stories/units_031_032_have_to_must.md)
