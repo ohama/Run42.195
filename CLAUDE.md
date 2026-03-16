@@ -176,7 +176,7 @@ grammar_in_use/
 | Conjunctions and Prepositions | 113-136 | 접속사/전치사 |
 | Phrasal Verbs | 137-145 | 구동사 |
 
-### Unit Structure
+### Unit Structure (기본)
 
 각 유닛 파일 구성:
 1. **문법 설명** - 핵심 문법 포인트
@@ -184,6 +184,38 @@ grammar_in_use/
 3. **비교/대조** - 유사 문법과의 차이
 4. **연습 문제** - 빈칸 채우기, 문장 변환
 5. **암기 문장** - Key Sentences
+
+### Unit Enhancement Guidelines (강화 시 기준)
+
+유닛 내용을 "대폭 강화"할 때 아래 기준을 일관되게 적용:
+
+#### 1. 소설 예문 수집
+- `translation/en/scenes/` 전체에서 해당 문법 관련 표현을 **철저히 검색**
+- 모든 예문에 **(Entry 번호)** 표기 — `(Entry 34)` 형식
+- 예문은 **용법별로 분류**하여 정리 (능력, 감각, 제안, 후회 등)
+
+#### 2. 섹션 구성
+- **From the Original Book**: Raymond Murphy 원서 예문 유지/추가
+- **Examples from the Novel**: 소설 예문을 용법별 소제목(####)으로 분류
+- **비교 섹션**: 혼동하기 쉬운 유사 표현 비교표 추가 (e.g., could vs was able to, could have vs would have vs might have)
+- **도윤이의 성장 섹션**: 해당 문법이 소설의 서사와 어떻게 연결되는지 시간순 정리
+- **발음 참고**: 발음이 어렵거나 혼동되는 표현에 /발음/ 표기
+
+#### 3. 연습 문제
+- **최소 5개 섹션** (A~E), **총 30문제 이상**
+- 유형: 선택, 문장 완성, 상황별 작성, 오류 수정
+- 유사 표현 비교 선택 문제 반드시 포함 (e.g., could have vs would have)
+- 모든 문제에 **Answers** 포함
+
+#### 4. 정리 테이블
+- **Key Sentences**: English | Korean | Usage | Entry 4열 테이블
+- **Summary Table**: 형태 | 의미 | 시제 | 예문
+- **Timeline/성장표**: Before → Now → Future 등 서사 흐름 반영
+
+#### 5. 기타
+- 흔한 실수(Common Mistakes)에 한국인이 자주 하는 실수 포함
+- 한국어 뉘앙스 비교 (e.g., "못했어" vs "못하고 있어" vs "못했을 거야")
+- 소설에서 반복되는 패턴이 있으면 별도 분석 (e.g., "couldn't have imagined" 7회 반복)
 
 ## Markdown Formatting Rules
 

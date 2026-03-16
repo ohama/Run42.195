@@ -7,6 +7,8 @@
 - [한국어 원작](https://ohama.github.io/Run42.195/ko/) - 104편 완결
 - [English Translation](https://ohama.github.io/Run42.195/en/) - 104/104 entries
 - [English Study Guide](https://ohama.github.io/Run42.195/study/) - 영어 회화 학습 가이드
+- [Grammar in Use](https://ohama.github.io/Run42.195/grammar/) - 소설 예문으로 배우는 영문법 (145 유닛)
+- [Short Stories](short_stories/) - 문법 암기용 단편 모음
 
 ## 영어 학습 자료
 
